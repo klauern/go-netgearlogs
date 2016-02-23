@@ -42,6 +42,22 @@ const (
 	emailSent         = "email sent to"
 )
 
+func ParseNetGearLog(r io.Reader) ([]*NetGearLog, map[string]error) {
+	var logs []*NetGearLog
+	errors := make(map[string]error)
+	scanner := bufio.NewScanner(r)
+	scanner.Split(bufio.ScanLines)
+	for scanner.Scan() {
+		t := scanner.Text()
+		log, err := ParseNetGearLogLine(t)
+		if err != nil {
+			errors[t] = err
+		}
+		logs = append(logs, log)
+	}
+	return logs, errors
+}
+
 func ParseNetGearLogLine(line string) (*NetGearLog, error) {
 	switch {
 	case strings.Contains(line, dosAttackSynAckScan):
@@ -86,8 +102,8 @@ func ParseNetGearLogLine(line string) (*NetGearLog, error) {
 	return nil, fmt.Errorf("Unknown")
 }
 
-func ParseSourceString(source string) string {
-	return strings.TrimRight(source, ", ")
+func TrimStrings(source string) string {
+	return strings.TrimRight(source, ", ]")
 }
 
 func ParseTimeString(pieces []string) (time.Time, error) {
@@ -99,17 +115,13 @@ func ParseTimeString(pieces []string) (time.Time, error) {
 	return tm, nil
 }
 
-func ParseIPAddress(s string) string {
-	return strings.Trim(s, "]")
-}
-
 func DoSAttack(line, eventType string) (*NetGearLog, error) {
 	pieces := strings.Fields(line)
 	t, terr := ParseTimeString(pieces[9:14])
 	if terr != nil {
 		return nil, terr
 	}
-	s := ParseSourceString(pieces[6])
+	s := TrimStrings(pieces[6])
 	log := &NetGearLog{
 		Time:       t,
 		FromSource: s,
@@ -124,7 +136,7 @@ func DoSAttackNoIP(line, eventType string) (*NetGearLog, error) {
 	if terr != nil {
 		return nil, terr
 	}
-	s := ParseSourceString(pieces[6])
+	s := TrimStrings(pieces[6])
 	log := &NetGearLog{
 		Time:       t,
 		FromSource: s,
@@ -183,7 +195,7 @@ func InternetConnected(line string) (*NetGearLog, error) {
 	if err != nil {
 		return nil, err
 	}
-	ip := ParseIPAddress(pieces[4])
+	ip := TrimStrings(pieces[4])
 	log := &NetGearLog{
 		EventType:  internetConnected,
 		Time:       t,
@@ -198,7 +210,7 @@ func UPnPAddNatRule(line string) (*NetGearLog, error) {
 	if err != nil {
 		return nil, err
 	}
-	ip := ParseIPAddress(pieces[6])
+	ip := TrimStrings(pieces[6])
 	log := &NetGearLog{
 		FromSource: ip,
 		Time:       t,
@@ -213,7 +225,7 @@ func UPnPDelNatRule(line string) (*NetGearLog, error) {
 	if err != nil {
 		return nil, err
 	}
-	ip := ParseIPAddress(pieces[6])
+	ip := TrimStrings(pieces[6])
 	log := &NetGearLog{
 		FromSource: ip,
 		Time:       t,
@@ -222,30 +234,14 @@ func UPnPDelNatRule(line string) (*NetGearLog, error) {
 	return log, nil
 }
 
-func ParseNetGearLog(r io.Reader) ([]*NetGearLog, map[string]error) {
-	var logs []*NetGearLog
-	errors := make(map[string]error)
-	scanner := bufio.NewScanner(r)
-	scanner.Split(bufio.ScanLines)
-	for scanner.Scan() {
-		t := scanner.Text()
-		log, err := ParseNetGearLogLine(t)
-		if err != nil {
-			errors[t] = err
-		}
-		logs = append(logs, log)
-	}
-	return logs, errors
-}
-
 func ParseLANAccessRemote(line string) (*NetGearLog, error) {
 	pieces := strings.Fields(line)
 	t, err := ParseTimeString(pieces[8:13])
 	if err != nil {
 		return nil, err
 	}
-	src := ParseIPAddress(pieces[5])
-	dest := ParseIPAddress(pieces[7])
+	src := TrimStrings(pieces[5])
+	dest := TrimStrings(pieces[7])
 	log := &NetGearLog{
 		EventType:  lanAccessFromRemote,
 		Time:       t,
@@ -277,7 +273,7 @@ func ParseAdminLogin(line string) (*NetGearLog, error) {
 	if err != nil {
 		return nil, err
 	}
-	src := ParseIPAddress(pieces[4])
+	src := TrimStrings(pieces[4])
 	log := &NetGearLog{
 		EventType:  adminLogin,
 		Time:       t,
