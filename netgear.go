@@ -17,15 +17,15 @@ type NetGearLog struct {
 }
 
 const (
-	netgearLogDateFmt      = "Monday, January 2, 2006 15:04:05"
+	netgearLogDateFmt = "Monday, January 2, 2006 15:04:05"
 
 	dosAttackSynAckScan    = "DoS Attack: SYN/ACK Scan"
 	dosAttackRstScan       = "DoS Attack: RST Scan"
-	dosAttackTcpUdpChargen = "DoS Attack: TCP/UDP Chargen"
+	dosAttackTCPUDPChargen = "DoS Attack: TCP/UDP Chargen"
 	dosAttackAckScan       = "DoS Attack: ACK Scan"
 	dosAttackICMPScan      = "DoS Attack: ICMP Scan"
 	dosAttackARPAttack     = "DoS Attack: ARP Attack"
-	dosAttackTcpUdpEcho    = "DoS Attack: TCP/UDP Echo"
+	dosAttackTCPUDPEcho    = "DoS Attack: TCP/UDP Echo"
 
 	wlanRejectIncorrectSec = "WLAN access rejected: incorrect security"
 	accessControl          = "Access Control"
@@ -33,13 +33,13 @@ const (
 	dhcpIP                 = "DHCP IP"
 	dynamicDNS             = "Dynamic DNS"
 
-	upnpAddNatRule         = "UPnP set event: add_nat_rule"
-	upnpDelNatRule         = "UPnP set event: del_nat_rule"
+	upnpAddNatRule = "UPnP set event: add_nat_rule"
+	upnpDelNatRule = "UPnP set event: del_nat_rule"
 
-	timeSyncWithNTP        = "Time synchronized with NTP server"
-	internetConnected      = "Internet connected"
-	adminLogin             = "admin login"
-	emailSent              = "email sent to"
+	timeSyncWithNTP   = "Time synchronized with NTP server"
+	internetConnected = "Internet connected"
+	adminLogin        = "admin login"
+	emailSent         = "email sent to"
 )
 
 func ParseNetGearLogLine(line string) (*NetGearLog, error) {
@@ -48,12 +48,12 @@ func ParseNetGearLogLine(line string) (*NetGearLog, error) {
 		return DoSAttack(line, dosAttackSynAckScan)
 	case strings.Contains(line, dosAttackRstScan):
 		return DoSAttack(line, dosAttackRstScan)
-	case strings.Contains(line, dosAttackTcpUdpChargen):
-		return DoSAttack(line, dosAttackTcpUdpChargen)
+	case strings.Contains(line, dosAttackTCPUDPChargen):
+		return DoSAttack(line, dosAttackTCPUDPChargen)
 	case strings.Contains(line, dosAttackAckScan):
 		return DoSAttack(line, dosAttackAckScan)
-	case strings.Contains(line, dosAttackTcpUdpEcho):
-		return DoSAttack(line, dosAttackTcpUdpEcho)
+	case strings.Contains(line, dosAttackTCPUDPEcho):
+		return DoSAttack(line, dosAttackTCPUDPEcho)
 	case strings.Contains(line, dosAttackICMPScan):
 		return DoSAttackNoIP(line, dosAttackICMPScan)
 	case strings.Contains(line, dosAttackARPAttack):
@@ -84,17 +84,6 @@ func ParseNetGearLogLine(line string) (*NetGearLog, error) {
 		return nil, fmt.Errorf("Log Line Not Parseable: \n%s", line)
 	}
 	return nil, fmt.Errorf("Unknown")
-}
-
-func LogLines(r io.Reader) [][]string {
-	lines := make([][]string, 0)
-	scanner := bufio.NewScanner(r)
-	scanner.Split(bufio.ScanLines)
-	for scanner.Scan() {
-		fields := strings.Fields(scanner.Text())
-		lines = append(lines, fields)
-	}
-	return lines
 }
 
 func ParseSourceString(source string) string {
@@ -131,10 +120,6 @@ func DoSAttack(line, eventType string) (*NetGearLog, error) {
 
 func DoSAttackNoIP(line, eventType string) (*NetGearLog, error) {
 	pieces := strings.Fields(line)
-	//fmt.Println(eventType)
-	//for i, v := range pieces {
-	//	fmt.Printf("%d %s\n", i, v)
-	//}
 	t, terr := ParseTimeString(pieces[7:12])
 	if terr != nil {
 		return nil, terr
@@ -238,7 +223,7 @@ func UPnPDelNatRule(line string) (*NetGearLog, error) {
 }
 
 func ParseNetGearLog(r io.Reader) ([]*NetGearLog, map[string]error) {
-	logs := make([]*NetGearLog, 0)
+	var logs []*NetGearLog
 	errors := make(map[string]error)
 	scanner := bufio.NewScanner(r)
 	scanner.Split(bufio.ScanLines)
