@@ -19,24 +19,24 @@ type NetGearLog struct {
 const (
 	netgearLogDateFmt = "Monday, January 2, 2006 15:04:05"
 
-	dosAttackSynAckScan    = "DoS Attack: SYN/ACK Scan"
-	dosAttackRstScan       = "DoS Attack: RST Scan"
-	dosAttackTCPUDPChargen = "DoS Attack: TCP/UDP Chargen"
-	dosAttackAckScan       = "DoS Attack: ACK Scan"
-	dosAttackICMPScan      = "DoS Attack: ICMP Scan"
-	dosAttackARPAttack     = "DoS Attack: ARP Attack"
-	dosAttackTCPUDPEcho    = "DoS Attack: TCP/UDP Echo"
-	wlanRejectIncorrectSec = "WLAN access rejected: incorrect security"
-	accessControl          = "Access Control"
-	lanAccessFromRemote    = "LAN access from remote"
-	dhcpIP                 = "DHCP IP"
-	dynamicDNS             = "Dynamic DNS"
-	upnpAddNatRule         = "UPnP set event: add_nat_rule"
-	upnpDelNatRule         = "UPnP set event: del_nat_rule"
-	timeSyncWithNTP        = "Time synchronized with NTP server"
-	internetConnected      = "Internet connected"
-	adminLogin             = "admin login"
-	emailSent              = "email sent to"
+	eventDoSAttackSynAckScan = "DoS Attack: SYN/ACK Scan"
+	eventDoSAttackRstScan = "DoS Attack: RST Scan"
+	eventDoSAttackTCPUDPChargen = "DoS Attack: TCP/UDP Chargen"
+	eventDoSAttackAckScan = "DoS Attack: ACK Scan"
+	eventDoSAttackICMPScan = "DoS Attack: ICMP Scan"
+	eventDoSAttackARPAttack = "DoS Attack: ARP Attack"
+	eventDoSAttackTCPUDPEcho = "DoS Attack: TCP/UDP Echo"
+	eventWLANRejectIncorrectSec = "WLAN access rejected: incorrect security"
+	eventAccessControl = "Access Control"
+	eventLANAccessFromRemote = "LAN access from remote"
+	eventDHCPIP = "DHCP IP"
+	eventDynamicDNS = "Dynamic DNS"
+	eventUPnPAddNatRule = "UPnP set event: add_nat_rule"
+	eventUPnPDelNatRule = "UPnP set event: del_nat_rule"
+	eventTimeSyncNTP = "Time synchronized with NTP server"
+	eventInternetConnected = "Internet connected"
+	eventAdminLogin = "admin login"
+	eventEmailSent = "email sent to"
 )
 
 func ParseNetGearLog(r io.Reader) ([]*NetGearLog, map[string]error) {
@@ -57,41 +57,41 @@ func ParseNetGearLog(r io.Reader) ([]*NetGearLog, map[string]error) {
 
 func ParseNetGearLogLine(line string) (*NetGearLog, error) {
 	switch {
-	case strings.Contains(line, dosAttackSynAckScan):
-		return dosAttack(line, dosAttackSynAckScan)
-	case strings.Contains(line, dosAttackRstScan):
-		return dosAttack(line, dosAttackRstScan)
-	case strings.Contains(line, dosAttackTCPUDPChargen):
-		return dosAttack(line, dosAttackTCPUDPChargen)
-	case strings.Contains(line, dosAttackAckScan):
-		return dosAttack(line, dosAttackAckScan)
-	case strings.Contains(line, dosAttackTCPUDPEcho):
-		return dosAttack(line, dosAttackTCPUDPEcho)
-	case strings.Contains(line, dosAttackICMPScan):
-		return dosAttackNoIP(line, dosAttackICMPScan)
-	case strings.Contains(line, dosAttackARPAttack):
-		return dosAttackNoIP(line, dosAttackARPAttack)
-	case strings.Contains(line, wlanRejectIncorrectSec):
+	case strings.Contains(line, eventDoSAttackSynAckScan):
+		return dosAttack(line, eventDoSAttackSynAckScan)
+	case strings.Contains(line, eventDoSAttackRstScan):
+		return dosAttack(line, eventDoSAttackRstScan)
+	case strings.Contains(line, eventDoSAttackTCPUDPChargen):
+		return dosAttack(line, eventDoSAttackTCPUDPChargen)
+	case strings.Contains(line, eventDoSAttackAckScan):
+		return dosAttack(line, eventDoSAttackAckScan)
+	case strings.Contains(line, eventDoSAttackTCPUDPEcho):
+		return dosAttack(line, eventDoSAttackTCPUDPEcho)
+	case strings.Contains(line, eventDoSAttackICMPScan):
+		return dosAttackNoIP(line, eventDoSAttackICMPScan)
+	case strings.Contains(line, eventDoSAttackARPAttack):
+		return dosAttackNoIP(line, eventDoSAttackARPAttack)
+	case strings.Contains(line, eventWLANRejectIncorrectSec):
 		return wLANRejectIncorrectSecurity(line)
-	case strings.Contains(line, timeSyncWithNTP):
+	case strings.Contains(line, eventTimeSyncNTP):
 		return timeSyncWithNTP(line)
-	case strings.Contains(line, dhcpIP):
+	case strings.Contains(line, eventDHCPIP):
 		return dhcpIPAssign(line)
-	case strings.Contains(line, internetConnected):
+	case strings.Contains(line, eventInternetConnected):
 		return internetConnected(line)
-	case strings.Contains(line, upnpAddNatRule):
+	case strings.Contains(line, eventUPnPAddNatRule):
 		return upnpAddNatRule(line)
-	case strings.Contains(line, upnpDelNatRule):
+	case strings.Contains(line, eventUPnPDelNatRule):
 		return upnpDelNatRule(line)
-	case strings.Contains(line, accessControl):
+	case strings.Contains(line, eventAccessControl):
 		return accessControl(line)
-	case strings.Contains(line, lanAccessFromRemote):
+	case strings.Contains(line, eventLANAccessFromRemote):
 		return lanAccessRemote(line)
-	case strings.Contains(line, adminLogin):
+	case strings.Contains(line, eventAdminLogin):
 		return adminLogin(line)
-	case strings.Contains(line, emailSent):
+	case strings.Contains(line, eventEmailSent):
 		return emailSent(line)
-	case strings.Contains(line, dynamicDNS):
+	case strings.Contains(line, eventDynamicDNS):
 		return dynamicDNS(line)
 	default:
 		return nil, fmt.Errorf("Log Line Not Parseable: \n%s", line)
@@ -154,7 +154,7 @@ func dhcpIPAssign(line string) (*NetGearLog, error) {
 		Time:         t,
 		FromSource:   ip,
 		ToMACAddress: mac,
-		EventType:    dhcpIP,
+		EventType:    eventDHCPIP,
 	}
 	return log, nil
 }
@@ -166,7 +166,7 @@ func timeSyncWithNTP(line string) (*NetGearLog, error) {
 		return nil, err
 	}
 	log := &NetGearLog{
-		EventType: timeSyncWithNTP,
+		EventType: eventTimeSyncNTP,
 		Time:      t,
 	}
 	return log, nil
@@ -181,7 +181,7 @@ func wLANRejectIncorrectSecurity(line string) (*NetGearLog, error) {
 	log := &NetGearLog{
 		ToMACAddress: strings.Trim(pieces[8], ", "),
 		Time:         t,
-		EventType:    wlanRejectIncorrectSec,
+		EventType:    eventWLANRejectIncorrectSec,
 	}
 	return log, nil
 }
@@ -194,7 +194,7 @@ func internetConnected(line string) (*NetGearLog, error) {
 	}
 	ip := TrimStrings(pieces[4])
 	log := &NetGearLog{
-		EventType:  internetConnected,
+		EventType:  eventInternetConnected,
 		Time:       t,
 		FromSource: ip,
 	}
@@ -211,7 +211,7 @@ func upnpAddNatRule(line string) (*NetGearLog, error) {
 	log := &NetGearLog{
 		FromSource: ip,
 		Time:       t,
-		EventType:  upnpAddNatRule,
+		EventType:  eventUPnPAddNatRule,
 	}
 	return log, nil
 }
@@ -226,7 +226,7 @@ func upnpDelNatRule(line string) (*NetGearLog, error) {
 	log := &NetGearLog{
 		FromSource: ip,
 		Time:       t,
-		EventType:  upnpDelNatRule,
+		EventType:  eventUPnPDelNatRule,
 	}
 	return log, nil
 }
@@ -240,7 +240,7 @@ func lanAccessRemote(line string) (*NetGearLog, error) {
 	src := TrimStrings(pieces[5])
 	dest := TrimStrings(pieces[7])
 	log := &NetGearLog{
-		EventType:  lanAccessFromRemote,
+		EventType:  eventLANAccessFromRemote,
 		Time:       t,
 		FromSource: src,
 		ToDest:     dest,
@@ -257,7 +257,7 @@ func accessControl(line string) (*NetGearLog, error) {
 	blk := strings.Trim(pieces[9], " ")
 	mac := strings.Trim(pieces[7], " ")
 	log := &NetGearLog{
-		EventType:    accessControl + " " + blk,
+		EventType:    eventAccessControl + " " + blk,
 		Time:         t,
 		ToMACAddress: mac,
 	}
@@ -272,7 +272,7 @@ func adminLogin(line string) (*NetGearLog, error) {
 	}
 	src := TrimStrings(pieces[4])
 	log := &NetGearLog{
-		EventType:  adminLogin,
+		EventType:  eventAdminLogin,
 		Time:       t,
 		FromSource: src,
 	}
@@ -288,7 +288,7 @@ func emailSent(line string) (*NetGearLog, error) {
 	s := strings.Trim(pieces[3], "]")
 	log := &NetGearLog{
 		Time:      t,
-		EventType: emailSent,
+		EventType: eventEmailSent,
 		ToDest:    s,
 	}
 	return log, nil
@@ -302,7 +302,7 @@ func dynamicDNS(line string) (*NetGearLog, error) {
 	}
 	dest := strings.Trim(pieces[4], " ")
 	log := &NetGearLog{
-		EventType: dynamicDNS + " registration " + pieces[6],
+		EventType: eventDynamicDNS + " registration " + pieces[6],
 		Time:      t,
 		ToDest:    dest,
 	}
