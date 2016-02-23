@@ -99,11 +99,11 @@ func ParseNetGearLogLine(line string) (*NetGearLog, error) {
 	return nil, fmt.Errorf("Unknown")
 }
 
-func TrimStrings(source string) string {
+func trimStrings(source string) string {
 	return strings.TrimRight(source, ", ]")
 }
 
-func ParseTimeString(pieces []string) (time.Time, error) {
+func parseTimeString(pieces []string) (time.Time, error) {
 	t := strings.Join(pieces, " ")
 	tm, err := time.Parse(netgearLogDateFmt, t)
 	if err != nil {
@@ -114,11 +114,11 @@ func ParseTimeString(pieces []string) (time.Time, error) {
 
 func dosAttack(line, eventType string) (*NetGearLog, error) {
 	pieces := strings.Fields(line)
-	t, terr := ParseTimeString(pieces[9:14])
+	t, terr := parseTimeString(pieces[9:14])
 	if terr != nil {
 		return nil, terr
 	}
-	s := TrimStrings(pieces[6])
+	s := trimStrings(pieces[6])
 	log := &NetGearLog{
 		Time:       t,
 		FromSource: s,
@@ -129,11 +129,11 @@ func dosAttack(line, eventType string) (*NetGearLog, error) {
 
 func dosAttackNoIP(line, eventType string) (*NetGearLog, error) {
 	pieces := strings.Fields(line)
-	t, terr := ParseTimeString(pieces[7:12])
+	t, terr := parseTimeString(pieces[7:12])
 	if terr != nil {
 		return nil, terr
 	}
-	s := TrimStrings(pieces[6])
+	s := trimStrings(pieces[6])
 	log := &NetGearLog{
 		Time:       t,
 		FromSource: s,
@@ -144,7 +144,7 @@ func dosAttackNoIP(line, eventType string) (*NetGearLog, error) {
 
 func dhcpIPAssign(line string) (*NetGearLog, error) {
 	pieces := strings.Fields(line)
-	t, err := ParseTimeString(pieces[7:12])
+	t, err := parseTimeString(pieces[7:12])
 	if err != nil {
 		return nil, err
 	}
@@ -161,7 +161,7 @@ func dhcpIPAssign(line string) (*NetGearLog, error) {
 
 func timeSyncWithNTP(line string) (*NetGearLog, error) {
 	pieces := strings.Fields(line)
-	t, err := ParseTimeString(pieces[5:10])
+	t, err := parseTimeString(pieces[5:10])
 	if err != nil {
 		return nil, err
 	}
@@ -174,7 +174,7 @@ func timeSyncWithNTP(line string) (*NetGearLog, error) {
 
 func wLANRejectIncorrectSecurity(line string) (*NetGearLog, error) {
 	pieces := strings.Fields(line)
-	t, err := ParseTimeString(pieces[9:14])
+	t, err := parseTimeString(pieces[9:14])
 	if err != nil {
 		return nil, err
 	}
@@ -188,11 +188,11 @@ func wLANRejectIncorrectSecurity(line string) (*NetGearLog, error) {
 
 func internetConnected(line string) (*NetGearLog, error) {
 	pieces := strings.Fields(line)
-	t, err := ParseTimeString(pieces[5:10])
+	t, err := parseTimeString(pieces[5:10])
 	if err != nil {
 		return nil, err
 	}
-	ip := TrimStrings(pieces[4])
+	ip := trimStrings(pieces[4])
 	log := &NetGearLog{
 		EventType:  eventInternetConnected,
 		Time:       t,
@@ -203,11 +203,11 @@ func internetConnected(line string) (*NetGearLog, error) {
 
 func upnpAddNatRule(line string) (*NetGearLog, error) {
 	pieces := strings.Fields(line)
-	t, err := ParseTimeString(pieces[7:12])
+	t, err := parseTimeString(pieces[7:12])
 	if err != nil {
 		return nil, err
 	}
-	ip := TrimStrings(pieces[6])
+	ip := trimStrings(pieces[6])
 	log := &NetGearLog{
 		FromSource: ip,
 		Time:       t,
@@ -218,11 +218,11 @@ func upnpAddNatRule(line string) (*NetGearLog, error) {
 
 func upnpDelNatRule(line string) (*NetGearLog, error) {
 	pieces := strings.Fields(line)
-	t, err := ParseTimeString(pieces[7:12])
+	t, err := parseTimeString(pieces[7:12])
 	if err != nil {
 		return nil, err
 	}
-	ip := TrimStrings(pieces[6])
+	ip := trimStrings(pieces[6])
 	log := &NetGearLog{
 		FromSource: ip,
 		Time:       t,
@@ -233,12 +233,12 @@ func upnpDelNatRule(line string) (*NetGearLog, error) {
 
 func lanAccessRemote(line string) (*NetGearLog, error) {
 	pieces := strings.Fields(line)
-	t, err := ParseTimeString(pieces[8:13])
+	t, err := parseTimeString(pieces[8:13])
 	if err != nil {
 		return nil, err
 	}
-	src := TrimStrings(pieces[5])
-	dest := TrimStrings(pieces[7])
+	src := trimStrings(pieces[5])
+	dest := trimStrings(pieces[7])
 	log := &NetGearLog{
 		EventType:  eventLANAccessFromRemote,
 		Time:       t,
@@ -250,7 +250,7 @@ func lanAccessRemote(line string) (*NetGearLog, error) {
 
 func accessControl(line string) (*NetGearLog, error) {
 	pieces := strings.Fields(line)
-	t, err := ParseTimeString(pieces[14:19])
+	t, err := parseTimeString(pieces[14:19])
 	if err != nil {
 		return nil, err
 	}
@@ -266,11 +266,11 @@ func accessControl(line string) (*NetGearLog, error) {
 
 func adminLogin(line string) (*NetGearLog, error) {
 	pieces := strings.Fields(line)
-	t, err := ParseTimeString(pieces[5:10])
+	t, err := parseTimeString(pieces[5:10])
 	if err != nil {
 		return nil, err
 	}
-	src := TrimStrings(pieces[4])
+	src := trimStrings(pieces[4])
 	log := &NetGearLog{
 		EventType:  eventAdminLogin,
 		Time:       t,
@@ -281,7 +281,7 @@ func adminLogin(line string) (*NetGearLog, error) {
 
 func emailSent(line string) (*NetGearLog, error) {
 	pieces := strings.Fields(line)
-	t, err := ParseTimeString(pieces[4:9])
+	t, err := parseTimeString(pieces[4:9])
 	if err != nil {
 		return nil, err
 	}
@@ -296,7 +296,7 @@ func emailSent(line string) (*NetGearLog, error) {
 
 func dynamicDNS(line string) (*NetGearLog, error) {
 	pieces := strings.Fields(line)
-	t, err := ParseTimeString(pieces[7:12])
+	t, err := parseTimeString(pieces[7:12])
 	if err != nil {
 		return nil, err
 	}
