@@ -26,20 +26,17 @@ const (
 	dosAttackICMPScan      = "DoS Attack: ICMP Scan"
 	dosAttackARPAttack     = "DoS Attack: ARP Attack"
 	dosAttackTCPUDPEcho    = "DoS Attack: TCP/UDP Echo"
-
 	wlanRejectIncorrectSec = "WLAN access rejected: incorrect security"
 	accessControl          = "Access Control"
 	lanAccessFromRemote    = "LAN access from remote"
 	dhcpIP                 = "DHCP IP"
 	dynamicDNS             = "Dynamic DNS"
-
-	upnpAddNatRule = "UPnP set event: add_nat_rule"
-	upnpDelNatRule = "UPnP set event: del_nat_rule"
-
-	timeSyncWithNTP   = "Time synchronized with NTP server"
-	internetConnected = "Internet connected"
-	adminLogin        = "admin login"
-	emailSent         = "email sent to"
+	upnpAddNatRule         = "UPnP set event: add_nat_rule"
+	upnpDelNatRule         = "UPnP set event: del_nat_rule"
+	timeSyncWithNTP        = "Time synchronized with NTP server"
+	internetConnected      = "Internet connected"
+	adminLogin             = "admin login"
+	emailSent              = "email sent to"
 )
 
 func ParseNetGearLog(r io.Reader) ([]*NetGearLog, map[string]error) {
