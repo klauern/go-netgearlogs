@@ -1,0 +1,1280 @@
+[Time synchronized with NTP server] Monday, February 22, 2016 19:03:16
+[DHCP IP: 192.168.1.6] to MAC address b4:b6:76:bf:19:8b, Monday, February 22, 2016 18:31:22
+[DHCP IP: 192.168.1.6] to MAC address b4:b6:76:bf:19:8b, Monday, February 22, 2016 18:16:21
+[DHCP IP: 192.168.1.11] to MAC address 20:7d:74:70:da:1d, Monday, February 22, 2016 18:15:58
+[DHCP IP: 192.168.1.10] to MAC address 10:a5:d0:cd:fc:19, Monday, February 22, 2016 18:13:21
+[DoS Attack: SYN/ACK Scan] from source: 37.59.134.139, port 80, Monday, February 22, 2016 18:10:18
+[DoS Attack: TCP/UDP Chargen] from source: 185.94.111.1, port 52792, Monday, February 22, 2016 17:46:56
+[Internet connected] IP address: 96.37.90.24, Monday, February 22, 2016 17:02:59
+[DoS Attack: ACK Scan] from source: 195.179.119.177, port 80, Monday, February 22, 2016 16:49:18
+[DoS Attack: RST Scan] from source: 167.114.119.146, port 25583, Monday, February 22, 2016 16:46:16
+[DHCP IP: 192.168.1.10] to MAC address 10:a5:d0:cd:fc:19, Monday, February 22, 2016 16:35:52
+[DoS Attack: SYN/ACK Scan] from source: 94.23.182.44, port 80, Monday, February 22, 2016 16:28:10
+[DHCP IP: 192.168.1.19] to MAC address 70:48:0f:85:16:c7, Monday, February 22, 2016 16:22:21
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Monday, February 22, 2016 16:11:41
+[DHCP IP: 192.168.1.19] to MAC address 70:48:0f:85:16:c7, Monday, February 22, 2016 16:01:40
+[DoS Attack: SYN/ACK Scan] from source: 37.59.134.139, port 80, Monday, February 22, 2016 15:51:43
+[DoS Attack: ACK Scan] from source: 195.179.119.177, port 80, Monday, February 22, 2016 15:42:03
+[DoS Attack: SYN/ACK Scan] from source: 154.35.160.17, port 80, Monday, February 22, 2016 15:41:25
+[DHCP IP: 192.168.1.7] to MAC address 80:d2:1d:46:8a:8d, Monday, February 22, 2016 15:22:24
+[DoS Attack: ACK Scan] from source: 50.153.159.40, port 443, Monday, February 22, 2016 15:00:24
+[DoS Attack: SYN/ACK Scan] from source: 198.252.100.177, port 80, Monday, February 22, 2016 14:42:31
+[DoS Attack: SYN/ACK Scan] from source: 61.55.179.87, port 8445, Monday, February 22, 2016 14:13:19
+[DoS Attack: ACK Scan] from source: 199.59.166.110, port 80, Monday, February 22, 2016 13:59:29
+[DHCP IP: 192.168.1.4] to MAC address 68:94:23:a7:a8:4d, Monday, February 22, 2016 13:40:32
+[DoS Attack: SYN/ACK Scan] from source: 158.69.48.248, port 32000, Monday, February 22, 2016 13:14:15
+[LAN access from remote] from 80.82.79.104:46589 to 192.168.1.9:8080, Monday, February 22, 2016 13:11:37
+[Internet connected] IP address: 96.37.90.24, Monday, February 22, 2016 13:03:00
+[LAN access from remote] from 66.240.219.146:34680 to 192.168.1.9:8080, Monday, February 22, 2016 12:40:36
+[DoS Attack: SYN/ACK Scan] from source: 123.249.27.229, port 80, Monday, February 22, 2016 12:27:07
+[DoS Attack: TCP/UDP Chargen] from source: 194.63.142.32, port 40745, Monday, February 22, 2016 12:25:35
+[DoS Attack: SYN/ACK Scan] from source: 37.59.134.139, port 80, Monday, February 22, 2016 12:10:27
+[DoS Attack: ACK Scan] from source: 195.179.119.177, port 80, Monday, February 22, 2016 12:05:48
+[DoS Attack: RST Scan] from source: 192.99.5.125, port 25565, Monday, February 22, 2016 11:40:04
+[DoS Attack: SYN/ACK Scan] from source: 123.249.27.229, port 80, Monday, February 22, 2016 10:51:25
+[DoS Attack: ACK Scan] from source: 195.179.119.177, port 80, Monday, February 22, 2016 10:21:00
+[DoS Attack: RST Scan] from source: 5.45.71.80, port 80, Monday, February 22, 2016 10:11:29
+[DoS Attack: ACK Scan] from source: 195.179.119.177, port 80, Monday, February 22, 2016 09:38:45
+[DHCP IP: 192.168.1.8] to MAC address c0:33:5e:21:c8:e1, Monday, February 22, 2016 09:10:59
+[Internet connected] IP address: 96.37.90.24, Monday, February 22, 2016 09:02:59
+[DoS Attack: SYN/ACK Scan] from source: 185.97.254.17, port 80, Monday, February 22, 2016 08:45:38
+[DHCP IP: 192.168.1.19] to MAC address 70:48:0f:85:16:c7, Monday, February 22, 2016 08:35:46
+[DoS Attack: ACK Scan] from source: 195.179.119.177, port 80, Monday, February 22, 2016 08:04:31
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Monday, February 22, 2016 07:40:49
+[DoS Attack: RST Scan] from source: 109.254.48.3, port 13443, Monday, February 22, 2016 07:23:51
+[DoS Attack: SYN/ACK Scan] from source: 37.59.134.139, port 80, Monday, February 22, 2016 07:15:31
+[DoS Attack: SYN/ACK Scan] from source: 40.83.122.162, port 25565, Monday, February 22, 2016 06:31:50
+[DoS Attack: RST Scan] from source: 108.160.172.205, port 443, Monday, February 22, 2016 06:27:58
+[DoS Attack: SYN/ACK Scan] from source: 37.59.134.139, port 80, Monday, February 22, 2016 06:25:35
+[DHCP IP: 192.168.1.11] to MAC address 20:7d:74:70:da:1d, Monday, February 22, 2016 06:15:56
+[DoS Attack: SYN/ACK Scan] from source: 37.59.134.139, port 80, Monday, February 22, 2016 05:26:00
+[Internet connected] IP address: 96.37.90.24, Monday, February 22, 2016 05:02:59
+[DoS Attack: ACK Scan] from source: 195.179.119.177, port 80, Monday, February 22, 2016 04:42:22
+[DHCP IP: 192.168.1.10] to MAC address 10:a5:d0:cd:fc:19, Monday, February 22, 2016 04:29:10
+[DoS Attack: SYN/ACK Scan] from source: 203.124.119.1, port 80, Monday, February 22, 2016 03:59:07
+[DoS Attack: TCP/UDP Chargen] from source: 74.82.47.53, port 38696, Monday, February 22, 2016 03:25:08
+[DHCP IP: 192.168.1.7] to MAC address 80:d2:1d:46:8a:8d, Monday, February 22, 2016 03:22:23
+[DoS Attack: SYN/ACK Scan] from source: 75.126.102.243, port 80, Monday, February 22, 2016 03:13:47
+[DoS Attack: SYN/ACK Scan] from source: 144.76.219.46, port 80, Monday, February 22, 2016 03:03:38
+[DoS Attack: ACK Scan] from source: 195.179.119.177, port 80, Monday, February 22, 2016 02:57:28
+[DoS Attack: SYN/ACK Scan] from source: 203.124.119.1, port 80, Monday, February 22, 2016 02:46:44
+[DoS Attack: TCP/UDP Chargen] from source: 131.164.255.198, port 52448, Monday, February 22, 2016 02:42:14
+[DoS Attack: SYN/ACK Scan] from source: 54.164.69.137, port 80, Monday, February 22, 2016 02:30:42
+[DHCP IP: 192.168.1.7] to MAC address 80:d2:1d:46:8a:8d, Monday, February 22, 2016 02:24:35
+[DoS Attack: RST Scan] from source: 108.160.172.237, port 443, Monday, February 22, 2016 02:19:03
+[DoS Attack: RST Scan] from source: 108.160.172.193, port 443, Monday, February 22, 2016 02:17:32
+[DoS Attack: TCP/UDP Chargen] from source: 179.43.144.21, port 47320, Monday, February 22, 2016 01:58:38
+[LAN access from remote] from 80.82.64.70:47167 to 192.168.1.9:8080, Monday, February 22, 2016 01:54:44
+[DoS Attack: SYN/ACK Scan] from source: 167.114.206.157, port 9010, Monday, February 22, 2016 01:52:50
+[DHCP IP: 192.168.1.4] to MAC address 68:94:23:a7:a8:4d, Monday, February 22, 2016 01:38:23
+[Internet connected] IP address: 96.37.90.24, Monday, February 22, 2016 01:02:58
+[DHCP IP: 192.168.1.6] to MAC address b4:b6:76:bf:19:8b, Monday, February 22, 2016 00:33:12
+[DoS Attack: RST Scan] from source: 108.160.172.237, port 443, Sunday, February 21, 2016 22:25:33
+[DoS Attack: SYN/ACK Scan] from source: 95.173.165.246, port 80, Sunday, February 21, 2016 21:38:10
+[Internet connected] IP address: 96.37.90.24, Sunday, February 21, 2016 21:02:57
+[DHCP IP: 192.168.1.19] to MAC address 70:48:0f:85:16:c7, Sunday, February 21, 2016 20:34:58
+[DoS Attack: SYN/ACK Scan] from source: 123.249.27.229, port 80, Sunday, February 21, 2016 19:55:31
+[DoS Attack: SYN/ACK Scan] from source: 37.59.134.139, port 80, Sunday, February 21, 2016 19:43:45
+[DoS Attack: RST Scan] from source: 108.160.172.237, port 443, Sunday, February 21, 2016 19:30:41
+[DoS Attack: RST Scan] from source: 108.160.172.205, port 443, Sunday, February 21, 2016 19:04:30
+[DoS Attack: RST Scan] from source: 111.161.90.196, port 31414, Sunday, February 21, 2016 19:04:05
+[email sent to: klauer@gmail.com] Sunday, February 21, 2016 19:04:04
+[Time synchronized with NTP server] Sunday, February 21, 2016 19:03:14
+[DoS Attack: RST Scan] from source: 108.160.172.237, port 443, Sunday, February 21, 2016 18:55:32
+[DHCP IP: 192.168.1.6] to MAC address b4:b6:76:bf:19:8b, Sunday, February 21, 2016 18:29:15
+[DoS Attack: SYN/ACK Scan] from source: 123.249.27.229, port 80, Sunday, February 21, 2016 18:20:27
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Sunday, February 21, 2016 18:19:17
+[DHCP IP: 192.168.1.11] to MAC address 20:7d:74:70:da:1d, Sunday, February 21, 2016 18:15:55
+[DoS Attack: TCP/UDP Chargen] from source: 51.254.23.230, port 32768, Sunday, February 21, 2016 18:15:02
+[DHCP IP: 192.168.1.6] to MAC address b4:b6:76:bf:19:8b, Sunday, February 21, 2016 18:14:13
+[DHCP IP: 192.168.1.6] to MAC address b4:b6:76:bf:19:8b, Sunday, February 21, 2016 18:02:38
+[DoS Attack: TCP/UDP Chargen] from source: 185.103.252.18, port 54616, Sunday, February 21, 2016 18:01:56
+[DoS Attack: TCP/UDP Chargen] from source: 185.103.252.18, port 59774, Sunday, February 21, 2016 17:58:34
+[DHCP IP: 192.168.1.6] to MAC address b4:b6:76:bf:19:8b, Sunday, February 21, 2016 17:47:37
+[DoS Attack: RST Scan] from source: 108.160.172.205, port 443, Sunday, February 21, 2016 17:31:36
+[DoS Attack: RST Scan] from source: 108.160.172.237, port 443, Sunday, February 21, 2016 17:25:50
+[Internet connected] IP address: 96.37.90.24, Sunday, February 21, 2016 17:02:58
+[DHCP IP: 192.168.1.10] to MAC address 10:a5:d0:cd:fc:19, Sunday, February 21, 2016 16:57:56
+[DHCP IP: 192.168.1.10] to MAC address 10:a5:d0:cd:fc:19, Sunday, February 21, 2016 16:57:56
+[DoS Attack: ACK Scan] from source: 199.59.166.109, port 80, Sunday, February 21, 2016 16:02:48
+[DHCP IP: 192.168.1.7] to MAC address 80:d2:1d:46:8a:8d, Sunday, February 21, 2016 14:24:35
+[DoS Attack: SYN/ACK Scan] from source: 213.186.33.40, port 80, Sunday, February 21, 2016 13:53:54
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Sunday, February 21, 2016 13:50:09
+[DHCP IP: 192.168.1.4] to MAC address 68:94:23:a7:a8:4d, Sunday, February 21, 2016 13:36:13
+[Internet connected] IP address: 96.37.90.24, Sunday, February 21, 2016 13:02:57
+[DoS Attack: SYN/ACK Scan] from source: 137.117.68.135, port 80, Sunday, February 21, 2016 13:00:40
+[DoS Attack: SYN/ACK Scan] from source: 104.40.129.89, port 80, Sunday, February 21, 2016 13:00:03
+[DoS Attack: SYN/ACK Scan] from source: 149.202.73.189, port 21, Sunday, February 21, 2016 12:39:24
+[DoS Attack: SYN/ACK Scan] from source: 37.59.134.139, port 80, Sunday, February 21, 2016 11:09:47
+[DoS Attack: SYN/ACK Scan] from source: 37.187.98.180, port 53, Sunday, February 21, 2016 10:18:01
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Sunday, February 21, 2016 10:07:04
+[DoS Attack: SYN/ACK Scan] from source: 94.23.39.147, port 22100, Sunday, February 21, 2016 10:03:33
+[DoS Attack: SYN/ACK Scan] from source: 104.73.173.35, port 80, Sunday, February 21, 2016 09:39:58
+[DoS Attack: SYN/ACK Scan] from source: 37.59.134.139, port 80, Sunday, February 21, 2016 09:39:49
+[DoS Attack: SYN/ACK Scan] from source: 94.23.39.147, port 80, Sunday, February 21, 2016 09:20:16
+[DoS Attack: SYN/ACK Scan] from source: 37.59.134.139, port 80, Sunday, February 21, 2016 09:06:51
+[Internet connected] IP address: 96.37.90.24, Sunday, February 21, 2016 09:02:57
+[DHCP IP: 192.168.1.8] to MAC address c0:33:5e:21:c8:e1, Sunday, February 21, 2016 08:56:00
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Sunday, February 21, 2016 08:43:52
+[DoS Attack: ACK Scan] from source: 199.59.166.109, port 80, Sunday, February 21, 2016 08:43:23
+[DHCP IP: 192.168.1.19] to MAC address 70:48:0f:85:16:c7, Sunday, February 21, 2016 08:34:56
+[DoS Attack: TCP/UDP Chargen] from source: 185.130.5.253, port 35854, Sunday, February 21, 2016 08:33:39
+[DoS Attack: ICMP Scan] from source: 208.100.26.236, Sunday, February 21, 2016 08:07:57
+[DoS Attack: ACK Scan] from source: 208.100.26.236, port 59639, Sunday, February 21, 2016 08:07:57
+[DoS Attack: ACK Scan] from source: 72.167.239.239, port 80, Sunday, February 21, 2016 07:45:10
+[DoS Attack: SYN/ACK Scan] from source: 94.23.39.147, port 80, Sunday, February 21, 2016 07:24:46
+[DoS Attack: SYN/ACK Scan] from source: 54.182.4.215, port 80, Sunday, February 21, 2016 06:55:04
+[DHCP IP: 192.168.1.11] to MAC address 20:7d:74:70:da:1d, Sunday, February 21, 2016 06:15:56
+[DoS Attack: RST Scan] from source: 104.25.191.27, port 80, Sunday, February 21, 2016 06:13:26
+[DoS Attack: TCP/UDP Chargen] from source: 192.3.106.34, port 57673, Sunday, February 21, 2016 05:19:47
+[DoS Attack: TCP/UDP Chargen] from source: 185.94.111.1, port 39099, Sunday, February 21, 2016 05:03:57
+[Internet connected] IP address: 96.37.90.24, Sunday, February 21, 2016 05:02:57
+[DoS Attack: SYN/ACK Scan] from source: 54.182.4.215, port 80, Sunday, February 21, 2016 03:59:47
+[DHCP IP: 192.168.1.19] to MAC address 70:48:0f:85:16:c7, Sunday, February 21, 2016 03:17:23
+[DHCP IP: 192.168.1.19] to MAC address 70:48:0f:85:16:c7, Sunday, February 21, 2016 03:17:22
+[DoS Attack: SYN/ACK Scan] from source: 123.249.27.229, port 80, Sunday, February 21, 2016 03:16:25
+[DoS Attack: TCP/UDP Chargen] from source: 74.82.47.13, port 48125, Sunday, February 21, 2016 03:08:59
+[DoS Attack: SYN/ACK Scan] from source: 108.167.172.166, port 80, Sunday, February 21, 2016 02:40:25
+[DHCP IP: 192.168.1.7] to MAC address 80:d2:1d:46:8a:8d, Sunday, February 21, 2016 02:24:33
+[DHCP IP: 192.168.1.19] to MAC address 70:48:0f:85:16:c7, Sunday, February 21, 2016 02:16:34
+[DoS Attack: SYN/ACK Scan] from source: 37.59.134.139, port 80, Sunday, February 21, 2016 02:13:10
+[DoS Attack: SYN/ACK Scan] from source: 123.249.27.229, port 80, Sunday, February 21, 2016 01:42:51
+[Internet connected] IP address: 96.37.90.24, Sunday, February 21, 2016 01:02:55
+[LAN access from remote] from 193.105.134.220:46765 to 192.168.1.9:8080, Saturday, February 20, 2016 23:45:53
+[DoS Attack: ACK Scan] from source: 69.248.42.14, port 443, Saturday, February 20, 2016 23:44:34
+[Internet connected] IP address: 96.37.90.24, Saturday, February 20, 2016 21:02:55
+[DoS Attack: SYN/ACK Scan] from source: 37.59.134.139, port 80, Saturday, February 20, 2016 20:15:53
+[DoS Attack: TCP/UDP Chargen] from source: 179.43.141.234, port 46816, Saturday, February 20, 2016 19:36:13
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:29:12
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:28:32
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:28:31
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:27:56
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:27:56
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:27:22
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:27:21
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:26:39
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:26:39
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:26:05
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:26:05
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:25:23
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:25:23
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:24:44
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:24:44
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:24:03
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:24:02
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:23:31
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:23:31
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:22:52
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:22:51
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:22:08
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:22:08
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:21:31
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:21:30
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:20:45
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:20:45
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:20:05
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:20:05
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:19:22
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:19:21
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:18:49
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:18:49
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:18:09
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:18:08
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:17:24
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:17:24
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:16:39
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:16:39
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:16:07
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:16:07
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:15:31
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:15:30
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:14:56
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:14:56
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:14:16
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:14:15
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:13:40
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:13:40
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:13:06
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:13:06
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:12:25
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:12:25
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:11:45
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:11:45
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:11:04
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:11:04
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:10:25
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:10:25
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:09:42
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:09:42
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:08:58
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:08:58
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:08:18
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:08:18
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:07:46
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:07:45
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:07:01
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:07:01
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:06:26
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:06:26
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:05:48
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:05:48
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:05:07
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:05:07
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:04:32
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:04:32
+[email sent to: klauer@gmail.com] Saturday, February 20, 2016 19:04:05
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:03:59
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:03:58
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:03:19
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:03:19
+[Time synchronized with NTP server] Saturday, February 20, 2016 19:03:13
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:02:46
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:02:46
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:02:15
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:02:15
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:01:40
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:01:40
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:00:56
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:00:55
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:00:22
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:00:22
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:59:40
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:59:39
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:58:55
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:58:54
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:58:23
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:58:23
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:57:52
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:57:52
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:57:10
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:57:10
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:56:25
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:56:25
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:55:45
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:55:45
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:55:02
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:55:02
+[Time synchronized with NTP server] Sunday, February 21, 2016 19:03:14
+[DoS Attack: RST Scan] from source: 108.160.172.237, port 443, Sunday, February 21, 2016 18:55:32
+[DHCP IP: 192.168.1.6] to MAC address b4:b6:76:bf:19:8b, Sunday, February 21, 2016 18:29:15
+[DoS Attack: SYN/ACK Scan] from source: 123.249.27.229, port 80, Sunday, February 21, 2016 18:20:27
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Sunday, February 21, 2016 18:19:17
+[DHCP IP: 192.168.1.11] to MAC address 20:7d:74:70:da:1d, Sunday, February 21, 2016 18:15:55
+[DoS Attack: TCP/UDP Chargen] from source: 51.254.23.230, port 32768, Sunday, February 21, 2016 18:15:02
+[DHCP IP: 192.168.1.6] to MAC address b4:b6:76:bf:19:8b, Sunday, February 21, 2016 18:14:13
+[DHCP IP: 192.168.1.6] to MAC address b4:b6:76:bf:19:8b, Sunday, February 21, 2016 18:02:38
+[DoS Attack: TCP/UDP Chargen] from source: 185.103.252.18, port 54616, Sunday, February 21, 2016 18:01:56
+[DoS Attack: TCP/UDP Chargen] from source: 185.103.252.18, port 59774, Sunday, February 21, 2016 17:58:34
+[DHCP IP: 192.168.1.6] to MAC address b4:b6:76:bf:19:8b, Sunday, February 21, 2016 17:47:37
+[DoS Attack: RST Scan] from source: 108.160.172.205, port 443, Sunday, February 21, 2016 17:31:36
+[DoS Attack: RST Scan] from source: 108.160.172.237, port 443, Sunday, February 21, 2016 17:25:50
+[Internet connected] IP address: 96.37.90.24, Sunday, February 21, 2016 17:02:58
+[DHCP IP: 192.168.1.10] to MAC address 10:a5:d0:cd:fc:19, Sunday, February 21, 2016 16:57:56
+[DHCP IP: 192.168.1.10] to MAC address 10:a5:d0:cd:fc:19, Sunday, February 21, 2016 16:57:56
+[DoS Attack: ACK Scan] from source: 199.59.166.109, port 80, Sunday, February 21, 2016 16:02:48
+[DHCP IP: 192.168.1.7] to MAC address 80:d2:1d:46:8a:8d, Sunday, February 21, 2016 14:24:35
+[DoS Attack: SYN/ACK Scan] from source: 213.186.33.40, port 80, Sunday, February 21, 2016 13:53:54
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Sunday, February 21, 2016 13:50:09
+[DHCP IP: 192.168.1.4] to MAC address 68:94:23:a7:a8:4d, Sunday, February 21, 2016 13:36:13
+[Internet connected] IP address: 96.37.90.24, Sunday, February 21, 2016 13:02:57
+[DoS Attack: SYN/ACK Scan] from source: 137.117.68.135, port 80, Sunday, February 21, 2016 13:00:40
+[DoS Attack: SYN/ACK Scan] from source: 104.40.129.89, port 80, Sunday, February 21, 2016 13:00:03
+[DoS Attack: SYN/ACK Scan] from source: 149.202.73.189, port 21, Sunday, February 21, 2016 12:39:24
+[DoS Attack: SYN/ACK Scan] from source: 37.59.134.139, port 80, Sunday, February 21, 2016 11:09:47
+[DoS Attack: SYN/ACK Scan] from source: 37.187.98.180, port 53, Sunday, February 21, 2016 10:18:01
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Sunday, February 21, 2016 10:07:04
+[DoS Attack: SYN/ACK Scan] from source: 94.23.39.147, port 22100, Sunday, February 21, 2016 10:03:33
+[DoS Attack: SYN/ACK Scan] from source: 104.73.173.35, port 80, Sunday, February 21, 2016 09:39:58
+[DoS Attack: SYN/ACK Scan] from source: 37.59.134.139, port 80, Sunday, February 21, 2016 09:39:49
+[DoS Attack: SYN/ACK Scan] from source: 94.23.39.147, port 80, Sunday, February 21, 2016 09:20:16
+[DoS Attack: SYN/ACK Scan] from source: 37.59.134.139, port 80, Sunday, February 21, 2016 09:06:51
+[Internet connected] IP address: 96.37.90.24, Sunday, February 21, 2016 09:02:57
+[DHCP IP: 192.168.1.8] to MAC address c0:33:5e:21:c8:e1, Sunday, February 21, 2016 08:56:00
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Sunday, February 21, 2016 08:43:52
+[DoS Attack: ACK Scan] from source: 199.59.166.109, port 80, Sunday, February 21, 2016 08:43:23
+[DHCP IP: 192.168.1.19] to MAC address 70:48:0f:85:16:c7, Sunday, February 21, 2016 08:34:56
+[DoS Attack: TCP/UDP Chargen] from source: 185.130.5.253, port 35854, Sunday, February 21, 2016 08:33:39
+[DoS Attack: ICMP Scan] from source: 208.100.26.236, Sunday, February 21, 2016 08:07:57
+[DoS Attack: ACK Scan] from source: 208.100.26.236, port 59639, Sunday, February 21, 2016 08:07:57
+[DoS Attack: ACK Scan] from source: 72.167.239.239, port 80, Sunday, February 21, 2016 07:45:10
+[DoS Attack: SYN/ACK Scan] from source: 94.23.39.147, port 80, Sunday, February 21, 2016 07:24:46
+[DoS Attack: SYN/ACK Scan] from source: 54.182.4.215, port 80, Sunday, February 21, 2016 06:55:04
+[DHCP IP: 192.168.1.11] to MAC address 20:7d:74:70:da:1d, Sunday, February 21, 2016 06:15:56
+[DoS Attack: RST Scan] from source: 104.25.191.27, port 80, Sunday, February 21, 2016 06:13:26
+[DoS Attack: TCP/UDP Chargen] from source: 192.3.106.34, port 57673, Sunday, February 21, 2016 05:19:47
+[DoS Attack: TCP/UDP Chargen] from source: 185.94.111.1, port 39099, Sunday, February 21, 2016 05:03:57
+[Internet connected] IP address: 96.37.90.24, Sunday, February 21, 2016 05:02:57
+[DoS Attack: SYN/ACK Scan] from source: 54.182.4.215, port 80, Sunday, February 21, 2016 03:59:47
+[DHCP IP: 192.168.1.19] to MAC address 70:48:0f:85:16:c7, Sunday, February 21, 2016 03:17:23
+[DHCP IP: 192.168.1.19] to MAC address 70:48:0f:85:16:c7, Sunday, February 21, 2016 03:17:22
+[DoS Attack: SYN/ACK Scan] from source: 123.249.27.229, port 80, Sunday, February 21, 2016 03:16:25
+[DoS Attack: TCP/UDP Chargen] from source: 74.82.47.13, port 48125, Sunday, February 21, 2016 03:08:59
+[DoS Attack: SYN/ACK Scan] from source: 108.167.172.166, port 80, Sunday, February 21, 2016 02:40:25
+[DHCP IP: 192.168.1.7] to MAC address 80:d2:1d:46:8a:8d, Sunday, February 21, 2016 02:24:33
+[DHCP IP: 192.168.1.19] to MAC address 70:48:0f:85:16:c7, Sunday, February 21, 2016 02:16:34
+[DoS Attack: SYN/ACK Scan] from source: 37.59.134.139, port 80, Sunday, February 21, 2016 02:13:10
+[DoS Attack: SYN/ACK Scan] from source: 123.249.27.229, port 80, Sunday, February 21, 2016 01:42:51
+[Internet connected] IP address: 96.37.90.24, Sunday, February 21, 2016 01:02:55
+[LAN access from remote] from 193.105.134.220:46765 to 192.168.1.9:8080, Saturday, February 20, 2016 23:45:53
+[DoS Attack: ACK Scan] from source: 69.248.42.14, port 443, Saturday, February 20, 2016 23:44:34
+[Internet connected] IP address: 96.37.90.24, Saturday, February 20, 2016 21:02:55
+[DoS Attack: SYN/ACK Scan] from source: 37.59.134.139, port 80, Saturday, February 20, 2016 20:15:53
+[DoS Attack: TCP/UDP Chargen] from source: 179.43.141.234, port 46816, Saturday, February 20, 2016 19:36:13
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:29:12
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:28:32
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:28:31
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:27:56
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:27:56
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:27:22
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:27:21
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:26:39
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:26:39
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:26:05
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:26:05
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:25:23
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:25:23
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:24:44
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:24:44
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:24:03
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:24:02
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:23:31
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:23:31
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:22:52
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:22:51
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:22:08
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:22:08
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:21:31
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:21:30
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:20:45
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:20:45
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:20:05
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:20:05
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:19:22
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:19:21
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:18:49
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:18:49
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:18:09
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:18:08
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:17:24
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:17:24
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:16:39
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:16:39
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:16:07
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:16:07
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:15:31
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:15:30
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:14:56
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:14:56
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:14:16
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:14:15
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:13:40
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:13:40
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:13:06
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:13:06
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:12:25
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:12:25
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:11:45
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:11:45
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:11:04
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:11:04
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:10:25
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:10:25
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:09:42
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:09:42
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:08:58
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:08:58
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:08:18
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:08:18
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:07:46
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:07:45
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:07:01
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:07:01
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:06:26
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:06:26
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:05:48
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:05:48
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:05:07
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:05:07
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:04:32
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:04:32
+[email sent to: klauer@gmail.com] Saturday, February 20, 2016 19:04:05
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:03:59
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:03:58
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:03:19
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:03:19
+[Time synchronized with NTP server] Saturday, February 20, 2016 19:03:13
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:02:46
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:02:46
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:02:15
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:02:15
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:01:40
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:01:40
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:00:56
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:00:55
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:00:22
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:00:22
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:59:40
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:59:39
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:58:55
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:58:54
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:58:23
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:58:23
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:57:52
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:57:52
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:57:10
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:57:10
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:56:25
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:56:25
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:55:45
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:55:45
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:55:02
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:55:02
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:54:18
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:54:17
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:53:42
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:53:41
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:53:00
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:53:00
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:52:21
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:52:21
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:51:51
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:51:50
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:51:06
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:51:06
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:50:26
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:50:25
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:49:50
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:49:50
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:49:09
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:49:09
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:48:34
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:48:34
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:47:57
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:47:57
+[DHCP IP: 192.168.1.4] to MAC address 68:94:23:a7:a8:4d, Saturday, February 20, 2016 18:47:52
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:47:15
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:47:15
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:46:30
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:46:30
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:45:52
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:45:51
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:45:12
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:45:12
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:44:33
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:44:33
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:44:32
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:44:31
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:43:54
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:43:54
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:43:49
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:43:49
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:43:47
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:43:46
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:43:45
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:43:45
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:43:05
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:43:05
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:42:21
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:42:21
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:41:36
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:41:36
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:41:04
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:41:03
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:40:19
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:40:19
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:39:34
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:39:33
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:39:00
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:39:00
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:38:29
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:38:29
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:37:53
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:37:52
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:37:09
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:37:09
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:36:37
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:36:36
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:35:58
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:35:58
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:35:19
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:35:19
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:34:45
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:34:45
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:34:12
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:34:12
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:33:32
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:33:32
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:32:55
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:32:54
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:32:20
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:32:20
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:31:44
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 18:31:44
+[Time synchronized with NTP server] Wednesday, February 17, 2016 19:03:08
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Wednesday, February 17, 2016 19:02:19
+[DoS Attack: RST Scan] from source: 8.9.37.236, port 9324, Wednesday, February 17, 2016 18:23:36
+[DHCP IP: 192.168.1.11] to MAC address 20:7d:74:70:da:1d, Wednesday, February 17, 2016 18:15:54
+[DHCP IP: 192.168.1.8] to MAC address c0:33:5e:21:c8:e1, Wednesday, February 17, 2016 18:06:03
+[DoS Attack: RST Scan] from source: 205.234.175.175, port 80, Wednesday, February 17, 2016 17:48:13
+[DoS Attack: SYN/ACK Scan] from source: 192.69.97.16, port 27016, Wednesday, February 17, 2016 17:43:18
+[DHCP IP: 192.168.1.10] to MAC address 10:a5:d0:cd:fc:19, Wednesday, February 17, 2016 17:06:29
+[Internet connected] IP address: 96.37.90.24, Wednesday, February 17, 2016 17:02:35
+[DoS Attack: RST Scan] from source: 108.160.172.205, port 443, Wednesday, February 17, 2016 16:54:03
+[WLAN access rejected: incorrect security] from MAC address 10:a5:d0:cd:fc:19, Wednesday, February 17, 2016 16:52:35
+[DoS Attack: SYN/ACK Scan] from source: 108.179.232.33, port 80, Wednesday, February 17, 2016 16:40:59
+[DoS Attack: SYN/ACK Scan] from source: 43.227.231.88, port 80, Wednesday, February 17, 2016 16:35:36
+[DoS Attack: ACK Scan] from source: 212.224.81.114, port 22, Wednesday, February 17, 2016 16:16:29
+[DoS Attack: SYN/ACK Scan] from source: 123.249.27.229, port 80, Wednesday, February 17, 2016 15:48:19
+[DoS Attack: RST Scan] from source: 108.160.172.237, port 443, Wednesday, February 17, 2016 15:30:49
+[LAN access from remote] from 222.186.34.155:77 to 192.168.1.9:8080, Wednesday, February 17, 2016 15:22:09
+[DoS Attack: RST Scan] from source: 37.59.28.208, port 80, Wednesday, February 17, 2016 15:17:45
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Wednesday, February 17, 2016 15:08:36
+[DoS Attack: RST Scan] from source: 108.160.172.237, port 443, Wednesday, February 17, 2016 15:07:46
+[DoS Attack: RST Scan] from source: 108.160.172.205, port 443, Wednesday, February 17, 2016 15:00:45
+[DHCP IP: 192.168.1.19] to MAC address 70:48:0f:85:16:c7, Wednesday, February 17, 2016 15:00:19
+[DHCP IP: 192.168.1.6] to MAC address b4:b6:76:bf:19:8b, Wednesday, February 17, 2016 14:50:00
+[DoS Attack: ACK Scan] from source: 31.13.69.195, port 443, Wednesday, February 17, 2016 14:39:05
+[DHCP IP: 192.168.1.6] to MAC address b4:b6:76:bf:19:8b, Wednesday, February 17, 2016 14:34:59
+[DoS Attack: SYN/ACK Scan] from source: 192.99.39.120, port 1634, Wednesday, February 17, 2016 14:34:01
+[DoS Attack: RST Scan] from source: 108.160.172.237, port 443, Wednesday, February 17, 2016 14:22:17
+[DoS Attack: SYN/ACK Scan] from source: 123.249.27.229, port 80, Wednesday, February 17, 2016 14:12:11
+[DHCP IP: 192.168.1.7] to MAC address 80:d2:1d:46:8a:8d, Wednesday, February 17, 2016 14:10:14
+[DoS Attack: RST Scan] from source: 108.160.172.205, port 443, Wednesday, February 17, 2016 13:44:35
+[DoS Attack: RST Scan] from source: 173.199.112.85, port 5001, Wednesday, February 17, 2016 13:11:20
+[Internet connected] IP address: 96.37.90.24, Wednesday, February 17, 2016 13:02:34
+[DoS Attack: RST Scan] from source: 108.160.172.225, port 443, Wednesday, February 17, 2016 12:53:57
+[DHCP IP: 192.168.1.14] to MAC address 6c:71:d9:6b:7a:a0, Wednesday, February 17, 2016 12:43:14
+[DHCP IP: 192.168.1.14] to MAC address 6c:71:d9:6b:7a:a0, Wednesday, February 17, 2016 12:42:52
+[DHCP IP: 192.168.1.14] to MAC address 6c:71:d9:6b:7a:a0, Wednesday, February 17, 2016 12:42:39
+[DHCP IP: 192.168.1.14] to MAC address 6c:71:d9:6b:7a:a0, Wednesday, February 17, 2016 12:31:24
+[DHCP IP: 192.168.1.14] to MAC address 6c:71:d9:6b:7a:a0, Wednesday, February 17, 2016 12:16:22
+[DoS Attack: RST Scan] from source: 108.160.172.193, port 443, Wednesday, February 17, 2016 12:05:40
+[DHCP IP: 192.168.1.14] to MAC address 6c:71:d9:6b:7a:a0, Wednesday, February 17, 2016 12:01:20
+[DHCP IP: 192.168.1.14] to MAC address 6c:71:d9:6b:7a:a0, Wednesday, February 17, 2016 12:00:38
+[DoS Attack: ARP Attack] from source: 192.168.1.14, Wednesday, February 17, 2016 11:57:47
+[DHCP IP: 192.168.1.14] to MAC address 6c:71:d9:6b:7a:a0, Wednesday, February 17, 2016 11:45:35
+[DoS Attack: RST Scan] from source: 108.160.172.237, port 443, Wednesday, February 17, 2016 11:34:20
+[DHCP IP: 192.168.1.14] to MAC address 6c:71:d9:6b:7a:a0, Wednesday, February 17, 2016 11:30:32
+[DHCP IP: 192.168.1.14] to MAC address 6c:71:d9:6b:7a:a0, Wednesday, February 17, 2016 11:15:31
+[Access Control] Device NINJA with MAC address 6C:71:D9:6B:7A:A0 is allowed to access the network, Wednesday, February 17, 2016 11:15:09
+[DHCP IP: 192.168.1.14] to MAC address 6c:71:d9:6b:7a:a0, Wednesday, February 17, 2016 11:14:10
+[admin login] from source 192.168.1.6, Wednesday, February 17, 2016 11:13:39
+[DHCP IP: 192.168.1.14] to MAC address 6c:71:d9:6b:7a:a0, Wednesday, February 17, 2016 11:13:39
+[DHCP IP: 192.168.1.14] to MAC address 6c:71:d9:6b:7a:a0, Wednesday, February 17, 2016 11:11:48
+[Access Control] Device unknown with MAC address 6C:71:D9:6B:7A:A0 is blocked to access the network, Wednesday, February 17, 2016 11:08:29
+[DHCP IP: 192.168.1.14] to MAC address 6c:71:d9:6b:7a:a0, Wednesday, February 17, 2016 11:08:29
+[DoS Attack: ACK Scan] from source: 208.85.46.33, port 80, Wednesday, February 17, 2016 10:56:27
+[LAN access from remote] from 193.105.134.220:45229 to 192.168.1.9:8080, Wednesday, February 17, 2016 10:52:29
+[DHCP IP: 192.168.1.6] to MAC address b4:b6:76:bf:19:8b, Wednesday, February 17, 2016 10:42:07
+[DHCP IP: 192.168.1.6] to MAC address b4:b6:76:bf:19:8b, Wednesday, February 17, 2016 10:27:06
+[DoS Attack: RST Scan] from source: 108.160.172.237, port 443, Wednesday, February 17, 2016 10:18:16
+[DoS Attack: ACK Scan] from source: 31.13.69.197, port 443, Wednesday, February 17, 2016 09:38:00
+[DHCP IP: 192.168.1.4] to MAC address 68:94:23:a7:a8:4d, Wednesday, February 17, 2016 09:33:18
+[DoS Attack: RST Scan] from source: 108.160.172.225, port 443, Wednesday, February 17, 2016 09:25:51
+[DoS Attack: SYN/ACK Scan] from source: 37.59.134.139, port 80, Wednesday, February 17, 2016 09:24:07
+[DoS Attack: TCP/UDP Chargen] from source: 185.94.111.1, port 51227, Wednesday, February 17, 2016 09:03:37
+[Internet connected] IP address: 96.37.90.24, Wednesday, February 17, 2016 09:02:34
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Wednesday, February 17, 2016 08:59:24
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Wednesday, February 17, 2016 08:59:24
+[DHCP IP: 192.168.1.8] to MAC address c0:33:5e:21:c8:e1, Wednesday, February 17, 2016 08:54:46
+[DoS Attack: RST Scan] from source: 108.160.172.205, port 443, Wednesday, February 17, 2016 08:27:01
+[DHCP IP: 192.168.1.4] to MAC address 68:94:23:a7:a8:4d, Wednesday, February 17, 2016 07:52:18
+[DoS Attack: SYN/ACK Scan] from source: 164.132.99.91, port 9987, Wednesday, February 17, 2016 07:44:15
+[DoS Attack: RST Scan] from source: 108.160.172.205, port 443, Wednesday, February 17, 2016 07:44:08
+[DoS Attack: SYN/ACK Scan] from source: 50.87.145.77, port 80, Wednesday, February 17, 2016 07:36:12
+[DoS Attack: SYN/ACK Scan] from source: 164.132.51.73, port 2710, Wednesday, February 17, 2016 07:12:57
+[DoS Attack: RST Scan] from source: 108.160.172.205, port 443, Wednesday, February 17, 2016 06:59:53
+[DHCP IP: 192.168.1.10] to MAC address 10:a5:d0:cd:fc:19, Wednesday, February 17, 2016 06:57:24
+[DHCP IP: 192.168.1.11] to MAC address 20:7d:74:70:da:1d, Wednesday, February 17, 2016 06:15:55
+[DoS Attack: RST Scan] from source: 80.77.174.155, port 80, Wednesday, February 17, 2016 06:11:57
+[Internet connected] IP address: 96.37.90.24, Wednesday, February 17, 2016 05:02:33
+[DoS Attack: SYN/ACK Scan] from source: 218.60.71.14, port 8444, Wednesday, February 17, 2016 03:46:26
+[DoS Attack: RST Scan] from source: 108.160.172.237, port 443, Wednesday, February 17, 2016 03:33:48
+[DoS Attack: TCP/UDP Chargen] from source: 74.82.47.29, port 49067, Wednesday, February 17, 2016 03:25:05
+[DoS Attack: SYN/ACK Scan] from source: 61.213.168.48, port 80, Wednesday, February 17, 2016 03:17:20
+[DoS Attack: SYN/ACK Scan] from source: 61.213.168.56, port 80, Wednesday, February 17, 2016 03:16:32
+[DoS Attack: SYN/ACK Scan] from source: 204.2.171.82, port 80, Wednesday, February 17, 2016 03:16:06
+[DHCP IP: 192.168.1.19] to MAC address 70:48:0f:85:16:c7, Wednesday, February 17, 2016 03:00:30
+[DHCP IP: 192.168.1.19] to MAC address 70:48:0f:85:16:c7, Wednesday, February 17, 2016 03:00:28
+[DHCP IP: 192.168.1.7] to MAC address 80:d2:1d:46:8a:8d, Wednesday, February 17, 2016 02:10:13
+[DoS Attack: SYN/ACK Scan] from source: 23.4.92.19, port 80, Wednesday, February 17, 2016 01:43:10
+[DoS Attack: SYN/ACK Scan] from source: 23.4.92.11, port 80, Wednesday, February 17, 2016 01:08:52
+[Internet connected] IP address: 96.37.90.24, Wednesday, February 17, 2016 01:02:31
+[DoS Attack: SYN/ACK Scan] from source: 40.74.120.139, port 40, Wednesday, February 17, 2016 01:01:25
+[DoS Attack: SYN/ACK Scan] from source: 123.249.27.229, port 80, Tuesday, February 16, 2016 23:11:11
+[DHCP IP: 192.168.1.6] to MAC address b4:b6:76:bf:19:8b, Tuesday, February 16, 2016 23:01:39
+[DoS Attack: SYN/ACK Scan] from source: 198.252.107.59, port 443, Tuesday, February 16, 2016 22:46:42
+[DoS Attack: SYN/ACK Scan] from source: 104.73.173.35, port 80, Tuesday, February 16, 2016 22:41:42
+[DoS Attack: SYN/ACK Scan] from source: 210.61.247.90, port 80, Tuesday, February 16, 2016 22:13:15
+[DoS Attack: SYN/ACK Scan] from source: 40.74.132.189, port 40, Tuesday, February 16, 2016 21:58:42
+[DoS Attack: SYN/ACK Scan] from source: 123.249.27.229, port 80, Tuesday, February 16, 2016 21:36:24
+[DHCP IP: 192.168.1.19] to MAC address 70:48:0f:85:16:c7, Tuesday, February 16, 2016 21:04:30
+[DHCP IP: 192.168.1.8] to MAC address c0:33:5e:21:c8:e1, Tuesday, February 16, 2016 21:04:07
+[Internet connected] IP address: 96.37.90.24, Tuesday, February 16, 2016 21:02:31
+[DoS Attack: RST Scan] from source: 108.160.172.205, port 443, Tuesday, February 16, 2016 20:35:57
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Tuesday, February 16, 2016 20:24:39
+[DoS Attack: TCP/UDP Chargen] from source: 192.3.27.250, port 44920, Tuesday, February 16, 2016 20:15:32
+[DHCP IP: 192.168.1.10] to MAC address 10:a5:d0:cd:fc:19, Tuesday, February 16, 2016 19:26:11
+[DoS Attack: SYN/ACK Scan] from source: 190.12.72.50, port 27191, Tuesday, February 16, 2016 19:07:48
+[DoS Attack: SYN/ACK Scan] from source: 61.213.168.48, port 80, Tuesday, February 16, 2016 19:05:05
+[email sent to: klauer@gmail.com] Tuesday, February 16, 2016 19:04:05
+[Time synchronized with NTP server] Tuesday, February 16, 2016 19:03:06
+[DoS Attack: SYN/ACK Scan] from source: 23.2.16.34, port 80, Tuesday, February 16, 2016 19:02:22
+[DHCP IP: 192.168.1.11] to MAC address 20:7d:74:70:da:1d, Tuesday, February 16, 2016 18:15:50
+[DoS Attack: TCP/UDP Chargen] from source: 185.130.5.253, port 57022, Tuesday, February 16, 2016 17:50:45
+[WLAN access rejected: incorrect security] from MAC address 10:a5:d0:cd:fc:19, Tuesday, February 16, 2016 17:43:13
+[DoS Attack: RST Scan] from source: 108.160.172.237, port 443, Tuesday, February 16, 2016 17:39:11
+[DoS Attack: SYN/ACK Scan] from source: 68.40.255.235, port 80, Tuesday, February 16, 2016 17:35:22
+[DoS Attack: SYN/ACK Scan] from source: 188.165.3.18, port 80, Tuesday, February 16, 2016 17:25:27
+[DoS Attack: RST Scan] from source: 108.160.172.237, port 443, Tuesday, February 16, 2016 17:13:02
+[DoS Attack: SYN/ACK Scan] from source: 68.40.255.235, port 80, Tuesday, February 16, 2016 17:12:33
+[Internet connected] IP address: 96.37.90.24, Tuesday, February 16, 2016 17:02:31
+[DoS Attack: RST Scan] from source: 108.160.172.205, port 443, Tuesday, February 16, 2016 16:53:58
+[DoS Attack: SYN/ACK Scan] from source: 108.167.180.186, port 80, Tuesday, February 16, 2016 16:51:45
+[DoS Attack: RST Scan] from source: 108.160.172.205, port 443, Tuesday, February 16, 2016 16:47:56
+[DoS Attack: RST Scan] from source: 108.160.172.237, port 443, Tuesday, February 16, 2016 16:39:19
+[DoS Attack: SYN/ACK Scan] from source: 175.22.6.69, port 8450, Tuesday, February 16, 2016 16:38:52
+[DHCP IP: 192.168.1.7] to MAC address 80:d2:1d:46:8a:8d, Tuesday, February 16, 2016 16:36:08
+[DHCP IP: 192.168.1.6] to MAC address b4:b6:76:bf:19:8b, Tuesday, February 16, 2016 16:35:56
+[DoS Attack: SYN/ACK Scan] from source: 216.115.73.225, port 80, Tuesday, February 16, 2016 16:27:36
+[DHCP IP: 192.168.1.6] to MAC address b4:b6:76:bf:19:8b, Tuesday, February 16, 2016 16:20:55
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Tuesday, February 16, 2016 16:17:29
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Tuesday, February 16, 2016 16:17:04
+[DoS Attack: RST Scan] from source: 66.220.156.68, port 80, Tuesday, February 16, 2016 16:01:41
+[DHCP IP: 192.168.1.10] to MAC address 10:a5:d0:cd:fc:19, Tuesday, February 16, 2016 15:52:20
+[DHCP IP: 192.168.1.4] to MAC address 68:94:23:a7:a8:4d, Tuesday, February 16, 2016 15:19:19
+[DoS Attack: RST Scan] from source: 108.160.172.236, port 443, Tuesday, February 16, 2016 15:12:16
+[DoS Attack: RST Scan] from source: 108.160.172.225, port 443, Tuesday, February 16, 2016 15:09:15
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Tuesday, February 16, 2016 15:07:12
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Tuesday, February 16, 2016 15:05:41
+[DHCP IP: 192.168.1.8] to MAC address c0:33:5e:21:c8:e1, Tuesday, February 16, 2016 15:05:16
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Tuesday, February 16, 2016 15:03:55
+[DoS Attack: SYN/ACK Scan] from source: 106.120.171.16, port 8445, Tuesday, February 16, 2016 14:57:54
+[DoS Attack: SYN/ACK Scan] from source: 93.170.77.250, port 80, Tuesday, February 16, 2016 14:39:50
+[DoS Attack: SYN/ACK Scan] from source: 68.40.255.235, port 80, Tuesday, February 16, 2016 14:08:41
+[DHCP IP: 192.168.1.19] to MAC address 70:48:0f:85:16:c7, Tuesday, February 16, 2016 13:20:58
+[Internet connected] IP address: 96.37.90.24, Tuesday, February 16, 2016 13:02:31
+[DoS Attack: RST Scan] from source: 85.195.76.218, port 5004, Tuesday, February 16, 2016 12:40:55
+[DoS Attack: SYN/ACK Scan] from source: 178.248.234.128, port 80, Tuesday, February 16, 2016 12:26:50
+[DoS Attack: SYN/ACK Scan] from source: 192.99.191.222, port 6005, Tuesday, February 16, 2016 11:09:29
+[DoS Attack: SYN/ACK Scan] from source: 96.7.54.89, port 80, Tuesday, February 16, 2016 10:52:11
+[DoS Attack: SYN/ACK Scan] from source: 46.174.48.11, port 43896, Tuesday, February 16, 2016 10:16:35
+[DoS Attack: SYN/ACK Scan] from source: 107.180.36.180, port 80, Tuesday, February 16, 2016 10:04:36
+[DoS Attack: SYN/ACK Scan] from source: 108.167.180.186, port 80, Tuesday, February 16, 2016 09:12:40
+[DoS Attack: RST Scan] from source: 108.160.172.193, port 443, Tuesday, February 16, 2016 09:06:46
+[Internet connected] IP address: 96.37.90.24, Tuesday, February 16, 2016 09:02:30
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:55:21
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:54:45
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:54:44
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:54:06
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:54:05
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:53:27
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:53:27
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:52:42
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:52:41
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:52:06
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:52:06
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:51:27
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:51:26
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:50:55
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:50:54
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Tuesday, February 16, 2016 08:50:54
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:50:23
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:50:23
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:49:41
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:49:41
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:49:09
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:49:09
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:48:35
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:48:35
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:47:56
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:47:56
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:47:12
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:47:11
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:46:40
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:46:40
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:46:00
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:46:00
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:45:16
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:45:16
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:44:33
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:44:33
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:43:58
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:43:58
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:43:14
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:43:13
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:42:39
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:42:38
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:41:57
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:41:57
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:41:17
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:41:17
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:40:37
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:40:37
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:39:55
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:39:54
+[DoS Attack: TCP/UDP Chargen] from source: 23.228.101.234, port 57526, Tuesday, February 16, 2016 08:39:35
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:39:11
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:39:11
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:38:39
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:38:39
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:38:08
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:38:07
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:37:32
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:37:32
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:36:58
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:36:58
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:36:21
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:36:21
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:35:47
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:35:47
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:35:08
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:35:08
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:34:37
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:34:37
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:33:52
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:33:52
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:33:17
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:33:17
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:32:42
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:32:41
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:32:08
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:32:08
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:31:24
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:31:24
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:30:41
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:30:40
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:29:56
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:29:56
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:29:17
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:29:17
+[DoS Attack: ACK Scan] from source: 89.108.72.11, port 80, Tuesday, February 16, 2016 08:28:55
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:28:46
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:28:46
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:28:01
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:28:01
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:27:22
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:27:22
+[DoS Attack: ACK Scan] from source: 52.73.146.38, port 80, Tuesday, February 16, 2016 08:26:43
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:26:41
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:26:41
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:26:09
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:26:09
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:25:31
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:25:31
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:24:50
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:24:50
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:24:08
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:24:08
+[Time synchronized with NTP server] Friday, February 19, 2016 19:03:11
+[DoS Attack: SYN/ACK Scan] from source: 167.114.206.157, port 9010, Friday, February 19, 2016 18:54:58
+[DoS Attack: ACK Scan] from source: 31.13.69.203, port 443, Friday, February 19, 2016 18:41:39
+[DoS Attack: SYN/ACK Scan] from source: 68.233.247.142, port 80, Friday, February 19, 2016 18:32:55
+[DoS Attack: SYN/ACK Scan] from source: 40.78.146.128, port 80, Friday, February 19, 2016 18:25:51
+[DoS Attack: SYN/ACK Scan] from source: 208.31.254.16, port 80, Friday, February 19, 2016 18:20:04
+[DHCP IP: 192.168.1.11] to MAC address 20:7d:74:70:da:1d, Friday, February 19, 2016 18:15:56
+[DoS Attack: SYN/ACK Scan] from source: 123.249.27.229, port 80, Friday, February 19, 2016 17:54:37
+[DoS Attack: SYN/ACK Scan] from source: 68.233.247.142, port 80, Friday, February 19, 2016 17:49:14
+[DoS Attack: SYN/ACK Scan] from source: 60.212.16.162, port 8450, Friday, February 19, 2016 17:35:42
+[DoS Attack: SYN/ACK Scan] from source: 68.233.247.142, port 80, Friday, February 19, 2016 17:30:18
+[Internet connected] IP address: 96.37.90.24, Friday, February 19, 2016 17:02:46
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Friday, February 19, 2016 16:55:32
+[DHCP IP: 192.168.1.7] to MAC address 80:d2:1d:46:8a:8d, Friday, February 19, 2016 16:55:02
+[DoS Attack: SYN/ACK Scan] from source: 80.87.205.59, port 80, Friday, February 19, 2016 16:51:10
+[DoS Attack: SYN/ACK Scan] from source: 190.93.248.134, port 80, Friday, February 19, 2016 16:31:01
+[DoS Attack: SYN/ACK Scan] from source: 123.249.27.229, port 80, Friday, February 19, 2016 16:18:32
+[DHCP IP: 192.168.1.19] to MAC address 70:48:0f:85:16:c7, Friday, February 19, 2016 16:07:13
+[LAN access from remote] from 80.82.79.104:46177 to 192.168.1.9:8080, Friday, February 19, 2016 15:41:04
+[DoS Attack: ACK Scan] from source: 162.255.119.250, port 80, Friday, February 19, 2016 14:52:45
+[DHCP IP: 192.168.1.4] to MAC address 68:94:23:a7:a8:4d, Friday, February 19, 2016 14:12:45
+[DoS Attack: TCP/UDP Chargen] from source: 194.63.142.32, port 35793, Friday, February 19, 2016 13:26:09
+[DoS Attack: SYN/ACK Scan] from source: 104.254.123.122, port 80, Friday, February 19, 2016 13:04:57
+[Internet connected] IP address: 96.37.90.24, Friday, February 19, 2016 13:02:45
+[DoS Attack: TCP/UDP Echo] from source: 198.20.70.114, port 27221, Friday, February 19, 2016 13:00:45
+[DoS Attack: SYN/ACK Scan] from source: 91.121.78.160, port 8080, Friday, February 19, 2016 12:20:26
+[DoS Attack: RST Scan] from source: 158.58.173.195, port 1935, Friday, February 19, 2016 12:07:09
+[DHCP IP: 192.168.1.19] to MAC address 70:48:0f:85:16:c7, Friday, February 19, 2016 12:02:01
+[DoS Attack: RST Scan] from source: 174.129.220.243, port 49762, Friday, February 19, 2016 11:26:54
+[DoS Attack: RST Scan] from source: 5.9.239.2, port 1315, Friday, February 19, 2016 10:48:05
+[DoS Attack: SYN/ACK Scan] from source: 118.194.49.91, port 80, Friday, February 19, 2016 09:59:48
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Friday, February 19, 2016 09:11:47
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Friday, February 19, 2016 09:11:46
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Friday, February 19, 2016 09:11:42
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Friday, February 19, 2016 09:11:42
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Friday, February 19, 2016 09:11:09
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Friday, February 19, 2016 09:11:09
+[DHCP IP: 192.168.1.8] to MAC address c0:33:5e:21:c8:e1, Friday, February 19, 2016 09:11:06
+[Internet connected] IP address: 96.37.90.24, Friday, February 19, 2016 09:02:44
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Friday, February 19, 2016 08:46:49
+[DoS Attack: SYN/ACK Scan] from source: 115.146.121.219, port 20010, Friday, February 19, 2016 08:46:09
+[LAN access from remote] from 188.138.33.46:40048 to 192.168.1.9:8080, Friday, February 19, 2016 08:31:30
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Friday, February 19, 2016 08:29:14
+[DoS Attack: ACK Scan] from source: 162.255.119.249, port 80, Friday, February 19, 2016 07:33:23
+[DoS Attack: ACK Scan] from source: 31.13.69.195, port 443, Friday, February 19, 2016 07:15:11
+[DoS Attack: SYN/ACK Scan] from source: 96.17.68.72, port 80, Friday, February 19, 2016 06:40:51
+[DHCP IP: 192.168.1.11] to MAC address 20:7d:74:70:da:1d, Friday, February 19, 2016 06:15:53
+[DoS Attack: SYN/ACK Scan] from source: 218.61.196.159, port 8453, Friday, February 19, 2016 05:07:48
+[Internet connected] IP address: 96.37.90.24, Friday, February 19, 2016 05:02:44
+[DoS Attack: RST Scan] from source: 108.160.172.205, port 443, Friday, February 19, 2016 05:01:28
+[DHCP IP: 192.168.1.7] to MAC address 80:d2:1d:46:8a:8d, Friday, February 19, 2016 04:55:01
+[DoS Attack: SYN/ACK Scan] from source: 69.172.200.182, port 80, Friday, February 19, 2016 04:54:40
+[DHCP IP: 192.168.1.7] to MAC address 80:d2:1d:46:8a:8d, Friday, February 19, 2016 04:30:47
+[DoS Attack: SYN/ACK Scan] from source: 178.20.229.211, port 80, Friday, February 19, 2016 04:22:20
+[DoS Attack: SYN/ACK Scan] from source: 218.60.71.20, port 8451, Friday, February 19, 2016 04:05:26
+[DoS Attack: TCP/UDP Chargen] from source: 74.82.47.25, port 40788, Friday, February 19, 2016 03:31:02
+[DHCP IP: 192.168.1.19] to MAC address 70:48:0f:85:16:c7, Friday, February 19, 2016 03:17:58
+[LAN access from remote] from 185.40.4.203:33301 to 192.168.1.9:8080, Friday, February 19, 2016 03:14:28
+[DoS Attack: SYN/ACK Scan] from source: 104.99.238.27, port 80, Friday, February 19, 2016 01:56:28
+[DoS Attack: SYN/ACK Scan] from source: 23.2.16.98, port 80, Friday, February 19, 2016 01:21:36
+[DoS Attack: SYN/ACK Scan] from source: 123.249.27.229, port 80, Friday, February 19, 2016 01:10:04
+[Internet connected] IP address: 96.37.90.24, Friday, February 19, 2016 01:02:43
+[DoS Attack: RST Scan] from source: 205.234.175.175, port 80, Friday, February 19, 2016 00:30:54
+[DoS Attack: SYN/ACK Scan] from source: 23.201.102.10, port 80, Friday, February 19, 2016 00:24:42
+[DoS Attack: SYN/ACK Scan] from source: 123.249.27.229, port 80, Thursday, February 18, 2016 23:34:51
+[DoS Attack: SYN/ACK Scan] from source: 108.167.172.166, port 80, Thursday, February 18, 2016 22:15:43
+[DoS Attack: TCP/UDP Chargen] from source: 185.103.252.12, port 36299, Thursday, February 18, 2016 22:11:04
+[DoS Attack: RST Scan] from source: 108.160.172.237, port 443, Thursday, February 18, 2016 21:54:21
+[DHCP IP: 192.168.1.10] to MAC address 10:a5:d0:cd:fc:19, Thursday, February 18, 2016 21:46:51
+[DHCP IP: 192.168.1.4] to MAC address 68:94:23:a7:a8:4d, Thursday, February 18, 2016 21:39:48
+[DoS Attack: SYN/ACK Scan] from source: 173.192.64.147, port 21, Thursday, February 18, 2016 21:29:13
+[DoS Attack: RST Scan] from source: 108.160.172.205, port 443, Thursday, February 18, 2016 21:22:17
+[DoS Attack: RST Scan] from source: 184.168.47.225, port 80, Thursday, February 18, 2016 21:17:08
+[Dynamic DNS] host name klauer.mynetgear.com registeration successful, Thursday, February 18, 2016 21:12:16
+[Dynamic DNS] host name klauer.mynetgear.com registeration failure, Thursday, February 18, 2016 21:12:06
+[DoS Attack: RST Scan] from source: 108.160.172.237, port 443, Thursday, February 18, 2016 21:08:49
+[Internet connected] IP address: 96.37.90.24, Thursday, February 18, 2016 21:02:42
+[DoS Attack: SYN/ACK Scan] from source: 192.99.18.114, port 1232, Thursday, February 18, 2016 21:01:27
+[DoS Attack: TCP/UDP Chargen] from source: 185.94.111.1, port 37751, Thursday, February 18, 2016 20:27:30
+[DoS Attack: SYN/ACK Scan] from source: 107.3.223.193, port 80, Thursday, February 18, 2016 20:15:23
+[Dynamic DNS] host name klauer.mynetgear.com registeration successful, Thursday, February 18, 2016 20:09:36
+[Dynamic DNS] host name klauer.mynetgear.com registeration failure, Thursday, February 18, 2016 20:09:26
+[DoS Attack: RST Scan] from source: 108.160.172.237, port 443, Thursday, February 18, 2016 19:39:36
+[DHCP IP: 192.168.1.6] to MAC address b4:b6:76:bf:19:8b, Thursday, February 18, 2016 19:28:53
+[DoS Attack: SYN/ACK Scan] from source: 52.69.91.130, port 80, Thursday, February 18, 2016 19:16:19
+[DHCP IP: 192.168.1.6] to MAC address b4:b6:76:bf:19:8b, Thursday, February 18, 2016 19:13:53
+[DHCP IP: 192.168.1.6] to MAC address b4:b6:76:bf:19:8b, Thursday, February 18, 2016 19:13:52
+[DHCP IP: 192.168.1.19] to MAC address 70:48:0f:85:16:c7, Thursday, February 18, 2016 19:10:09
+[DoS Attack: SYN/ACK Scan] from source: 167.114.206.157, port 9110, Thursday, February 18, 2016 19:05:16
+[email sent to: klauer@gmail.com] Thursday, February 18, 2016 19:04:03
+[DoS Attack: ACK Scan] from source: 208.111.160.6, port 80, Thursday, February 18, 2016 19:03:29
+[Time synchronized with NTP server] Thursday, February 18, 2016 19:03:10
+[DoS Attack: ACK Scan] from source: 208.111.160.6, port 80, Thursday, February 18, 2016 18:59:44
+[DoS Attack: RST Scan] from source: 108.160.172.205, port 443, Thursday, February 18, 2016 18:59:07
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Thursday, February 18, 2016 18:57:49
+[DoS Attack: SYN/ACK Scan] from source: 5.196.194.125, port 80, Thursday, February 18, 2016 18:47:02
+[DoS Attack: RST Scan] from source: 108.160.172.205, port 443, Thursday, February 18, 2016 18:42:58
+[DHCP IP: 192.168.1.11] to MAC address 20:7d:74:70:da:1d, Thursday, February 18, 2016 18:15:54
+[DoS Attack: RST Scan] from source: 108.160.172.205, port 443, Thursday, February 18, 2016 18:07:08
+[DoS Attack: SYN/ACK Scan] from source: 108.167.172.166, port 80, Thursday, February 18, 2016 18:05:47
+[DoS Attack: RST Scan] from source: 108.160.172.205, port 443, Thursday, February 18, 2016 18:00:19
+[DoS Attack: RST Scan] from source: 184.168.47.225, port 80, Thursday, February 18, 2016 17:56:18
+[DoS Attack: RST Scan] from source: 108.160.172.205, port 443, Thursday, February 18, 2016 17:55:17
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Thursday, February 18, 2016 17:48:48
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Thursday, February 18, 2016 17:47:23
+[DoS Attack: SYN/ACK Scan] from source: 108.167.172.166, port 80, Thursday, February 18, 2016 17:38:50
+[DoS Attack: RST Scan] from source: 108.160.172.205, port 443, Thursday, February 18, 2016 17:38:13
+[DoS Attack: SYN/ACK Scan] from source: 158.69.19.80, port 550, Thursday, February 18, 2016 17:29:44
+[DoS Attack: RST Scan] from source: 54.230.15.25, port 2513, Thursday, February 18, 2016 17:27:20
+[DoS Attack: SYN/ACK Scan] from source: 79.110.91.158, port 80, Thursday, February 18, 2016 17:20:50
+[DoS Attack: RST Scan] from source: 108.160.172.237, port 443, Thursday, February 18, 2016 17:08:27
+[Internet connected] IP address: 96.37.90.24, Thursday, February 18, 2016 17:02:40
+[DoS Attack: SYN/ACK Scan] from source: 52.69.91.130, port 80, Thursday, February 18, 2016 16:56:17
+[DoS Attack: RST Scan] from source: 54.230.15.117, port 1179, Thursday, February 18, 2016 16:50:58
+[DHCP IP: 192.168.1.7] to MAC address 80:d2:1d:46:8a:8d, Thursday, February 18, 2016 16:30:47
+[DHCP IP: 192.168.1.6] to MAC address b4:b6:76:bf:19:8b, Thursday, February 18, 2016 16:24:26
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Thursday, February 18, 2016 16:21:33
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Thursday, February 18, 2016 16:21:33
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Thursday, February 18, 2016 16:20:48
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Thursday, February 18, 2016 16:20:48
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Thursday, February 18, 2016 16:20:13
+[DHCP IP: 192.168.1.8] to MAC address c0:33:5e:21:c8:e1, Thursday, February 18, 2016 16:20:08
+[DoS Attack: RST Scan] from source: 54.230.15.132, port 991, Thursday, February 18, 2016 16:17:50
+[DHCP IP: 192.168.1.6] to MAC address b4:b6:76:bf:19:8b, Thursday, February 18, 2016 16:09:25
+[DHCP IP: 192.168.1.10] to MAC address 10:a5:d0:cd:fc:19, Thursday, February 18, 2016 15:54:11
+[DoS Attack: RST Scan] from source: 188.165.208.158, port 82, Thursday, February 18, 2016 15:49:46
+[DoS Attack: RST Scan] from source: 54.230.15.25, port 4765, Thursday, February 18, 2016 15:45:21
+[DoS Attack: RST Scan] from source: 188.165.208.158, port 82, Thursday, February 18, 2016 15:21:08
+[DoS Attack: TCP/UDP Chargen] from source: 71.6.135.131, port 59842, Thursday, February 18, 2016 15:19:56
+[DoS Attack: RST Scan] from source: 188.165.208.158, port 82, Thursday, February 18, 2016 15:09:28
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Thursday, February 18, 2016 15:04:17
+[DoS Attack: RST Scan] from source: 188.165.208.158, port 82, Thursday, February 18, 2016 14:46:33
+[DHCP IP: 192.168.1.19] to MAC address 70:48:0f:85:16:c7, Thursday, February 18, 2016 14:43:06
+[DoS Attack: RST Scan] from source: 188.165.208.158, port 82, Thursday, February 18, 2016 13:35:15
+[DoS Attack: SYN/ACK Scan] from source: 164.132.51.73, port 2710, Thursday, February 18, 2016 13:29:21
+[DoS Attack: RST Scan] from source: 188.165.208.158, port 82, Thursday, February 18, 2016 13:20:16
+[DoS Attack: SYN/ACK Scan] from source: 167.114.206.157, port 9110, Thursday, February 18, 2016 13:19:46
+[DoS Attack: RST Scan] from source: 188.165.208.158, port 82, Thursday, February 18, 2016 13:08:24
+[Internet connected] IP address: 96.37.90.24, Thursday, February 18, 2016 13:02:40
+[DoS Attack: RST Scan] from source: 170.178.175.229, port 80, Thursday, February 18, 2016 12:53:28
+[DoS Attack: SYN/ACK Scan] from source: 82.81.161.138, port 443, Thursday, February 18, 2016 12:50:03
+[DoS Attack: SYN/ACK Scan] from source: 192.99.58.220, port 2710, Thursday, February 18, 2016 12:19:18
+[DoS Attack: SYN/ACK Scan] from source: 54.192.72.254, port 80, Thursday, February 18, 2016 12:10:15
+[DoS Attack: ACK Scan] from source: 212.224.81.114, port 443, Thursday, February 18, 2016 11:51:26
+[LAN access from remote] from 80.82.79.104:48261 to 192.168.1.9:8080, Thursday, February 18, 2016 11:36:24
+[DoS Attack: SYN/ACK Scan] from source: 119.167.206.148, port 8457, Thursday, February 18, 2016 11:16:57
+[DoS Attack: ACK Scan] from source: 212.224.81.114, port 443, Thursday, February 18, 2016 09:58:09
+[DHCP IP: 192.168.1.4] to MAC address 68:94:23:a7:a8:4d, Thursday, February 18, 2016 09:37:39
+[Internet connected] IP address: 96.37.90.24, Thursday, February 18, 2016 09:02:37
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Thursday, February 18, 2016 08:41:23
+[DoS Attack: SYN/ACK Scan] from source: 13.94.45.209, port 25565, Thursday, February 18, 2016 08:34:59
+[DoS Attack: SYN/ACK Scan] from source: 123.249.27.229, port 80, Thursday, February 18, 2016 08:24:56
+[DoS Attack: RST Scan] from source: 31.210.110.138, port 80, Thursday, February 18, 2016 08:06:54
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Thursday, February 18, 2016 08:04:05
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Thursday, February 18, 2016 08:02:57
+[DoS Attack: RST Scan] from source: 31.210.110.138, port 80, Thursday, February 18, 2016 07:51:36
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Thursday, February 18, 2016 07:50:01
+[WLAN access rejected: incorrect security] from MAC address 7c:1e:52:e0:11:7a, Thursday, February 18, 2016 07:49:56
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Thursday, February 18, 2016 07:41:51
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Thursday, February 18, 2016 07:39:41
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Thursday, February 18, 2016 07:38:04
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Thursday, February 18, 2016 07:30:58
+[DHCP IP: 192.168.1.8] to MAC address c0:33:5e:21:c8:e1, Thursday, February 18, 2016 07:28:37
+[DoS Attack: RST Scan] from source: 170.178.175.229, port 80, Thursday, February 18, 2016 07:27:21
+[DoS Attack: RST Scan] from source: 31.210.110.138, port 80, Thursday, February 18, 2016 07:27:12
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Thursday, February 18, 2016 07:15:27
+[DoS Attack: SYN/ACK Scan] from source: 123.249.27.229, port 80, Thursday, February 18, 2016 06:50:31
+[DoS Attack: SYN/ACK Scan] from source: 104.28.26.233, port 80, Thursday, February 18, 2016 06:23:19
+[DHCP IP: 192.168.1.11] to MAC address 20:7d:74:70:da:1d, Thursday, February 18, 2016 06:15:55
+[DoS Attack: SYN/ACK Scan] from source: 107.191.53.136, port 80, Thursday, February 18, 2016 05:52:29
+[DHCP IP: 192.168.1.6] to MAC address b4:b6:76:bf:19:8b, Thursday, February 18, 2016 05:03:54
+[Internet connected] IP address: 96.37.90.24, Thursday, February 18, 2016 05:02:37
+[DHCP IP: 192.168.1.6] to MAC address b4:b6:76:bf:19:8b, Thursday, February 18, 2016 04:48:52
+[DHCP IP: 192.168.1.10] to MAC address 10:a5:d0:cd:fc:19, Thursday, February 18, 2016 04:37:44
+[DoS Attack: RST Scan] from source: 45.58.70.4, port 443, Thursday, February 18, 2016 04:37:24
+[DHCP IP: 192.168.1.7] to MAC address 80:d2:1d:46:8a:8d, Thursday, February 18, 2016 04:30:46
+[DoS Attack: SYN/ACK Scan] from source: 192.0.77.2, port 80, Thursday, February 18, 2016 04:16:59
+[DoS Attack: TCP/UDP Chargen] from source: 74.82.47.21, port 59523, Thursday, February 18, 2016 03:57:18
+[DoS Attack: RST Scan] from source: 149.202.205.228, port 80, Thursday, February 18, 2016 03:48:18
+[DoS Attack: RST Scan] from source: 108.160.172.237, port 443, Thursday, February 18, 2016 03:34:13
+[DoS Attack: RST Scan] from source: 162.255.119.249, port 80, Thursday, February 18, 2016 03:27:42
+[DHCP IP: 192.168.1.19] to MAC address 70:48:0f:85:16:c7, Thursday, February 18, 2016 03:00:21
+[DoS Attack: RST Scan] from source: 108.160.172.205, port 443, Thursday, February 18, 2016 02:50:36
+[DoS Attack: SYN/ACK Scan] from source: 165.254.47.129, port 80, Thursday, February 18, 2016 02:39:43
+[LAN access from remote] from 193.105.134.220:59697 to 192.168.1.9:8080, Thursday, February 18, 2016 02:30:25
+[DoS Attack: SYN/ACK Scan] from source: 96.17.109.152, port 80, Thursday, February 18, 2016 02:25:04
+[DHCP IP: 192.168.1.7] to MAC address 80:d2:1d:46:8a:8d, Thursday, February 18, 2016 02:10:16
+[Internet connected] IP address: 96.37.90.24, Thursday, February 18, 2016 01:02:35
+[DoS Attack: RST Scan] from source: 108.160.172.237, port 443, Wednesday, February 17, 2016 23:44:37
+[DoS Attack: SYN/ACK Scan] from source: 165.254.96.92, port 80, Wednesday, February 17, 2016 23:43:51
+[DoS Attack: TCP/UDP Echo] from source: 188.138.17.205, port 27221, Wednesday, February 17, 2016 23:20:09
+[DoS Attack: RST Scan] from source: 108.160.172.237, port 443, Wednesday, February 17, 2016 21:58:03
+[DHCP IP: 192.168.1.4] to MAC address 68:94:23:a7:a8:4d, Wednesday, February 17, 2016 21:35:30
+[Internet connected] IP address: 96.37.90.24, Wednesday, February 17, 2016 21:02:35
+[DoS Attack: RST Scan] from source: 108.160.172.237, port 443, Wednesday, February 17, 2016 21:00:40
+[LAN access from remote] from 80.82.64.37:38978 to 192.168.1.9:8080, Wednesday, February 17, 2016 20:14:14
+[DHCP IP: 192.168.1.6] to MAC address b4:b6:76:bf:19:8b, Wednesday, February 17, 2016 19:42:23
+[DHCP IP: 192.168.1.6] to MAC address b4:b6:76:bf:19:8b, Wednesday, February 17, 2016 19:27:21
+[DHCP IP: 192.168.1.6] to MAC address b4:b6:76:bf:19:8b, Wednesday, February 17, 2016 19:26:45
+[DHCP IP: 192.168.1.6] to MAC address b4:b6:76:bf:19:8b, Wednesday, February 17, 2016 19:24:55
+[DoS Attack: RST Scan] from source: 108.160.172.205, port 443, Wednesday, February 17, 2016 19:07:33
+[admin login] from source 192.168.1.6, Wednesday, February 17, 2016 19:05:16
+[email sent to: klauer@gmail.com] Wednesday, February 17, 2016 19:04:04
+[Time synchronized with NTP server] Wednesday, February 17, 2016 19:03:09
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Wednesday, February 17, 2016 19:02:20
+[DoS Attack: RST Scan] from source: 8.9.37.236, port 9324, Wednesday, February 17, 2016 18:23:37
+[DHCP IP: 192.168.1.11] to MAC address 20:7d:74:70:da:1d, Wednesday, February 17, 2016 18:15:55
+[DHCP IP: 192.168.1.8] to MAC address c0:33:5e:21:c8:e1, Wednesday, February 17, 2016 18:06:04
+[DoS Attack: RST Scan] from source: 205.234.175.175, port 80, Wednesday, February 17, 2016 17:48:14
+[DoS Attack: SYN/ACK Scan] from source: 192.69.97.16, port 27016, Wednesday, February 17, 2016 17:43:19
+[DHCP IP: 192.168.1.10] to MAC address 10:a5:d0:cd:fc:19, Wednesday, February 17, 2016 17:06:30
+[Internet connected] IP address: 96.37.90.24, Wednesday, February 17, 2016 17:02:36
+[DoS Attack: RST Scan] from source: 108.160.172.205, port 443, Wednesday, February 17, 2016 16:54:04
+[WLAN access rejected: incorrect security] from MAC address 10:a5:d0:cd:fc:19, Wednesday, February 17, 2016 16:52:36
+[DoS Attack: SYN/ACK Scan] from source: 108.179.232.33, port 80, Wednesday, February 17, 2016 16:41:00
+[DoS Attack: SYN/ACK Scan] from source: 43.227.231.88, port 80, Wednesday, February 17, 2016 16:35:37
+[DoS Attack: ACK Scan] from source: 212.224.81.114, port 22, Wednesday, February 17, 2016 16:16:30
+[DoS Attack: SYN/ACK Scan] from source: 123.249.27.229, port 80, Wednesday, February 17, 2016 15:48:20
+[DoS Attack: RST Scan] from source: 108.160.172.237, port 443, Wednesday, February 17, 2016 15:30:50
+[LAN access from remote] from 222.186.34.155:77 to 192.168.1.9:8080, Wednesday, February 17, 2016 15:22:10
+[DoS Attack: RST Scan] from source: 37.59.28.208, port 80, Wednesday, February 17, 2016 15:17:46
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Wednesday, February 17, 2016 15:08:37
+[DoS Attack: RST Scan] from source: 108.160.172.237, port 443, Wednesday, February 17, 2016 15:07:47
+[DoS Attack: RST Scan] from source: 108.160.172.205, port 443, Wednesday, February 17, 2016 15:00:46
+[DHCP IP: 192.168.1.19] to MAC address 70:48:0f:85:16:c7, Wednesday, February 17, 2016 15:00:20
+[DHCP IP: 192.168.1.6] to MAC address b4:b6:76:bf:19:8b, Wednesday, February 17, 2016 14:50:01
+[DoS Attack: ACK Scan] from source: 31.13.69.195, port 443, Wednesday, February 17, 2016 14:39:06
+[DHCP IP: 192.168.1.6] to MAC address b4:b6:76:bf:19:8b, Wednesday, February 17, 2016 14:35:00
+[DoS Attack: SYN/ACK Scan] from source: 192.99.39.120, port 1634, Wednesday, February 17, 2016 14:34:02
+[DoS Attack: RST Scan] from source: 108.160.172.237, port 443, Wednesday, February 17, 2016 14:22:18
+[DoS Attack: SYN/ACK Scan] from source: 123.249.27.229, port 80, Wednesday, February 17, 2016 14:12:12
+[DHCP IP: 192.168.1.7] to MAC address 80:d2:1d:46:8a:8d, Wednesday, February 17, 2016 14:10:15
+[DoS Attack: RST Scan] from source: 108.160.172.205, port 443, Wednesday, February 17, 2016 13:44:36
+[DoS Attack: RST Scan] from source: 173.199.112.85, port 5001, Wednesday, February 17, 2016 13:11:21
+[Internet connected] IP address: 96.37.90.24, Wednesday, February 17, 2016 13:02:35
+[DoS Attack: RST Scan] from source: 108.160.172.225, port 443, Wednesday, February 17, 2016 12:53:58
+[DHCP IP: 192.168.1.14] to MAC address 6c:71:d9:6b:7a:a0, Wednesday, February 17, 2016 12:43:15
+[DHCP IP: 192.168.1.14] to MAC address 6c:71:d9:6b:7a:a0, Wednesday, February 17, 2016 12:42:53
+[DHCP IP: 192.168.1.14] to MAC address 6c:71:d9:6b:7a:a0, Wednesday, February 17, 2016 12:42:40
+[DHCP IP: 192.168.1.14] to MAC address 6c:71:d9:6b:7a:a0, Wednesday, February 17, 2016 12:31:25
+[DHCP IP: 192.168.1.14] to MAC address 6c:71:d9:6b:7a:a0, Wednesday, February 17, 2016 12:16:23
+[DoS Attack: RST Scan] from source: 108.160.172.193, port 443, Wednesday, February 17, 2016 12:05:41
+[DHCP IP: 192.168.1.14] to MAC address 6c:71:d9:6b:7a:a0, Wednesday, February 17, 2016 12:01:21
+[DHCP IP: 192.168.1.14] to MAC address 6c:71:d9:6b:7a:a0, Wednesday, February 17, 2016 12:00:39
+[DoS Attack: ARP Attack] from source: 192.168.1.14, Wednesday, February 17, 2016 11:57:48
+[DHCP IP: 192.168.1.14] to MAC address 6c:71:d9:6b:7a:a0, Wednesday, February 17, 2016 11:45:36
+[DoS Attack: RST Scan] from source: 108.160.172.237, port 443, Wednesday, February 17, 2016 11:34:21
+[DHCP IP: 192.168.1.14] to MAC address 6c:71:d9:6b:7a:a0, Wednesday, February 17, 2016 11:30:33
+[DHCP IP: 192.168.1.14] to MAC address 6c:71:d9:6b:7a:a0, Wednesday, February 17, 2016 11:15:32
+[Access Control] Device NINJA with MAC address 6C:71:D9:6B:7A:A0 is allowed to access the network, Wednesday, February 17, 2016 11:15:10
+[DHCP IP: 192.168.1.14] to MAC address 6c:71:d9:6b:7a:a0, Wednesday, February 17, 2016 11:14:11
+[admin login] from source 192.168.1.6, Wednesday, February 17, 2016 11:13:40
+[DHCP IP: 192.168.1.14] to MAC address 6c:71:d9:6b:7a:a0, Wednesday, February 17, 2016 11:13:40
+[DHCP IP: 192.168.1.14] to MAC address 6c:71:d9:6b:7a:a0, Wednesday, February 17, 2016 11:11:49
+[Access Control] Device unknown with MAC address 6C:71:D9:6B:7A:A0 is blocked to access the network, Wednesday, February 17, 2016 11:08:30
+[DHCP IP: 192.168.1.14] to MAC address 6c:71:d9:6b:7a:a0, Wednesday, February 17, 2016 11:08:30
+[Time synchronized with NTP server] Wednesday, February 17, 2016 19:03:08
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Wednesday, February 17, 2016 19:02:19
+[DoS Attack: RST Scan] from source: 8.9.37.236, port 9324, Wednesday, February 17, 2016 18:23:36
+[DHCP IP: 192.168.1.11] to MAC address 20:7d:74:70:da:1d, Wednesday, February 17, 2016 18:15:54
+[DHCP IP: 192.168.1.8] to MAC address c0:33:5e:21:c8:e1, Wednesday, February 17, 2016 18:06:03
+[DoS Attack: RST Scan] from source: 205.234.175.175, port 80, Wednesday, February 17, 2016 17:48:13
+[DoS Attack: SYN/ACK Scan] from source: 192.69.97.16, port 27016, Wednesday, February 17, 2016 17:43:18
+[DHCP IP: 192.168.1.10] to MAC address 10:a5:d0:cd:fc:19, Wednesday, February 17, 2016 17:06:29
+[Internet connected] IP address: 96.37.90.24, Wednesday, February 17, 2016 17:02:35
+[DoS Attack: RST Scan] from source: 108.160.172.205, port 443, Wednesday, February 17, 2016 16:54:03
+[WLAN access rejected: incorrect security] from MAC address 10:a5:d0:cd:fc:19, Wednesday, February 17, 2016 16:52:35
+[DoS Attack: SYN/ACK Scan] from source: 108.179.232.33, port 80, Wednesday, February 17, 2016 16:40:59
+[DoS Attack: SYN/ACK Scan] from source: 43.227.231.88, port 80, Wednesday, February 17, 2016 16:35:36
+[DoS Attack: ACK Scan] from source: 212.224.81.114, port 22, Wednesday, February 17, 2016 16:16:29
+[DoS Attack: SYN/ACK Scan] from source: 123.249.27.229, port 80, Wednesday, February 17, 2016 15:48:19
+[DoS Attack: RST Scan] from source: 108.160.172.237, port 443, Wednesday, February 17, 2016 15:30:49
+[LAN access from remote] from 222.186.34.155:77 to 192.168.1.9:8080, Wednesday, February 17, 2016 15:22:09
+[DoS Attack: RST Scan] from source: 37.59.28.208, port 80, Wednesday, February 17, 2016 15:17:45
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Wednesday, February 17, 2016 15:08:36
+[DoS Attack: RST Scan] from source: 108.160.172.237, port 443, Wednesday, February 17, 2016 15:07:46
+[DoS Attack: RST Scan] from source: 108.160.172.205, port 443, Wednesday, February 17, 2016 15:00:45
+[DHCP IP: 192.168.1.19] to MAC address 70:48:0f:85:16:c7, Wednesday, February 17, 2016 15:00:19
+[DHCP IP: 192.168.1.6] to MAC address b4:b6:76:bf:19:8b, Wednesday, February 17, 2016 14:50:00
+[DoS Attack: ACK Scan] from source: 31.13.69.195, port 443, Wednesday, February 17, 2016 14:39:05
+[DHCP IP: 192.168.1.6] to MAC address b4:b6:76:bf:19:8b, Wednesday, February 17, 2016 14:34:59
+[DoS Attack: SYN/ACK Scan] from source: 192.99.39.120, port 1634, Wednesday, February 17, 2016 14:34:01
+[DoS Attack: RST Scan] from source: 108.160.172.237, port 443, Wednesday, February 17, 2016 14:22:17
+[DoS Attack: SYN/ACK Scan] from source: 123.249.27.229, port 80, Wednesday, February 17, 2016 14:12:11
+[DHCP IP: 192.168.1.7] to MAC address 80:d2:1d:46:8a:8d, Wednesday, February 17, 2016 14:10:14
+[DoS Attack: RST Scan] from source: 108.160.172.205, port 443, Wednesday, February 17, 2016 13:44:35
+[DoS Attack: RST Scan] from source: 173.199.112.85, port 5001, Wednesday, February 17, 2016 13:11:20
+[Internet connected] IP address: 96.37.90.24, Wednesday, February 17, 2016 13:02:34
+[DoS Attack: RST Scan] from source: 108.160.172.225, port 443, Wednesday, February 17, 2016 12:53:57
+[DHCP IP: 192.168.1.14] to MAC address 6c:71:d9:6b:7a:a0, Wednesday, February 17, 2016 12:43:14
+[DHCP IP: 192.168.1.14] to MAC address 6c:71:d9:6b:7a:a0, Wednesday, February 17, 2016 12:42:52
+[DHCP IP: 192.168.1.14] to MAC address 6c:71:d9:6b:7a:a0, Wednesday, February 17, 2016 12:42:39
+[DHCP IP: 192.168.1.14] to MAC address 6c:71:d9:6b:7a:a0, Wednesday, February 17, 2016 12:31:24
+[DHCP IP: 192.168.1.14] to MAC address 6c:71:d9:6b:7a:a0, Wednesday, February 17, 2016 12:16:22
+[DoS Attack: RST Scan] from source: 108.160.172.193, port 443, Wednesday, February 17, 2016 12:05:40
+[DHCP IP: 192.168.1.14] to MAC address 6c:71:d9:6b:7a:a0, Wednesday, February 17, 2016 12:01:20
+[DHCP IP: 192.168.1.14] to MAC address 6c:71:d9:6b:7a:a0, Wednesday, February 17, 2016 12:00:38
+[DoS Attack: ARP Attack] from source: 192.168.1.14, Wednesday, February 17, 2016 11:57:47
+[DHCP IP: 192.168.1.14] to MAC address 6c:71:d9:6b:7a:a0, Wednesday, February 17, 2016 11:45:35
+[DoS Attack: RST Scan] from source: 108.160.172.237, port 443, Wednesday, February 17, 2016 11:34:20
+[DHCP IP: 192.168.1.14] to MAC address 6c:71:d9:6b:7a:a0, Wednesday, February 17, 2016 11:30:32
+[DHCP IP: 192.168.1.14] to MAC address 6c:71:d9:6b:7a:a0, Wednesday, February 17, 2016 11:15:31
+[Access Control] Device NINJA with MAC address 6C:71:D9:6B:7A:A0 is allowed to access the network, Wednesday, February 17, 2016 11:15:09
+[DHCP IP: 192.168.1.14] to MAC address 6c:71:d9:6b:7a:a0, Wednesday, February 17, 2016 11:14:10
+[admin login] from source 192.168.1.6, Wednesday, February 17, 2016 11:13:39
+[DHCP IP: 192.168.1.14] to MAC address 6c:71:d9:6b:7a:a0, Wednesday, February 17, 2016 11:13:39
+[DHCP IP: 192.168.1.14] to MAC address 6c:71:d9:6b:7a:a0, Wednesday, February 17, 2016 11:11:48
+[Access Control] Device unknown with MAC address 6C:71:D9:6B:7A:A0 is blocked to access the network, Wednesday, February 17, 2016 11:08:29
+[DHCP IP: 192.168.1.14] to MAC address 6c:71:d9:6b:7a:a0, Wednesday, February 17, 2016 11:08:29
+[DoS Attack: ACK Scan] from source: 208.85.46.33, port 80, Wednesday, February 17, 2016 10:56:27
+[LAN access from remote] from 193.105.134.220:45229 to 192.168.1.9:8080, Wednesday, February 17, 2016 10:52:29
+[DHCP IP: 192.168.1.6] to MAC address b4:b6:76:bf:19:8b, Wednesday, February 17, 2016 10:42:07
+[DHCP IP: 192.168.1.6] to MAC address b4:b6:76:bf:19:8b, Wednesday, February 17, 2016 10:27:06
+[DoS Attack: RST Scan] from source: 108.160.172.237, port 443, Wednesday, February 17, 2016 10:18:16
+[DoS Attack: ACK Scan] from source: 31.13.69.197, port 443, Wednesday, February 17, 2016 09:38:00
+[DHCP IP: 192.168.1.4] to MAC address 68:94:23:a7:a8:4d, Wednesday, February 17, 2016 09:33:18
+[DoS Attack: RST Scan] from source: 108.160.172.225, port 443, Wednesday, February 17, 2016 09:25:51
+[DoS Attack: SYN/ACK Scan] from source: 37.59.134.139, port 80, Wednesday, February 17, 2016 09:24:07
+[DoS Attack: TCP/UDP Chargen] from source: 185.94.111.1, port 51227, Wednesday, February 17, 2016 09:03:37
+[Internet connected] IP address: 96.37.90.24, Wednesday, February 17, 2016 09:02:34
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Wednesday, February 17, 2016 08:59:24
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Wednesday, February 17, 2016 08:59:24
+[DHCP IP: 192.168.1.8] to MAC address c0:33:5e:21:c8:e1, Wednesday, February 17, 2016 08:54:46
+[DoS Attack: RST Scan] from source: 108.160.172.205, port 443, Wednesday, February 17, 2016 08:27:01
+[DHCP IP: 192.168.1.4] to MAC address 68:94:23:a7:a8:4d, Wednesday, February 17, 2016 07:52:18
+[DoS Attack: SYN/ACK Scan] from source: 164.132.99.91, port 9987, Wednesday, February 17, 2016 07:44:15
+[DoS Attack: RST Scan] from source: 108.160.172.205, port 443, Wednesday, February 17, 2016 07:44:08
+[DoS Attack: SYN/ACK Scan] from source: 50.87.145.77, port 80, Wednesday, February 17, 2016 07:36:12
+[DoS Attack: SYN/ACK Scan] from source: 164.132.51.73, port 2710, Wednesday, February 17, 2016 07:12:57
+[DoS Attack: RST Scan] from source: 108.160.172.205, port 443, Wednesday, February 17, 2016 06:59:53
+[DHCP IP: 192.168.1.10] to MAC address 10:a5:d0:cd:fc:19, Wednesday, February 17, 2016 06:57:24
+[DHCP IP: 192.168.1.11] to MAC address 20:7d:74:70:da:1d, Wednesday, February 17, 2016 06:15:55
+[DoS Attack: RST Scan] from source: 80.77.174.155, port 80, Wednesday, February 17, 2016 06:11:57
+[Internet connected] IP address: 96.37.90.24, Wednesday, February 17, 2016 05:02:33
+[DoS Attack: SYN/ACK Scan] from source: 218.60.71.14, port 8444, Wednesday, February 17, 2016 03:46:26
+[DoS Attack: RST Scan] from source: 108.160.172.237, port 443, Wednesday, February 17, 2016 03:33:48
+[DoS Attack: TCP/UDP Chargen] from source: 74.82.47.29, port 49067, Wednesday, February 17, 2016 03:25:05
+[DoS Attack: SYN/ACK Scan] from source: 61.213.168.48, port 80, Wednesday, February 17, 2016 03:17:20
+[DoS Attack: SYN/ACK Scan] from source: 61.213.168.56, port 80, Wednesday, February 17, 2016 03:16:32
+[DoS Attack: SYN/ACK Scan] from source: 204.2.171.82, port 80, Wednesday, February 17, 2016 03:16:06
+[DHCP IP: 192.168.1.19] to MAC address 70:48:0f:85:16:c7, Wednesday, February 17, 2016 03:00:30
+[DHCP IP: 192.168.1.19] to MAC address 70:48:0f:85:16:c7, Wednesday, February 17, 2016 03:00:28
+[DHCP IP: 192.168.1.7] to MAC address 80:d2:1d:46:8a:8d, Wednesday, February 17, 2016 02:10:13
+[DoS Attack: SYN/ACK Scan] from source: 23.4.92.19, port 80, Wednesday, February 17, 2016 01:43:10
+[DoS Attack: SYN/ACK Scan] from source: 23.4.92.11, port 80, Wednesday, February 17, 2016 01:08:52
+[Internet connected] IP address: 96.37.90.24, Wednesday, February 17, 2016 01:02:31
+[DoS Attack: SYN/ACK Scan] from source: 40.74.120.139, port 40, Wednesday, February 17, 2016 01:01:25
+[DoS Attack: SYN/ACK Scan] from source: 123.249.27.229, port 80, Tuesday, February 16, 2016 23:11:11
+[DHCP IP: 192.168.1.6] to MAC address b4:b6:76:bf:19:8b, Tuesday, February 16, 2016 23:01:39
+[DoS Attack: SYN/ACK Scan] from source: 198.252.107.59, port 443, Tuesday, February 16, 2016 22:46:42
+[DoS Attack: SYN/ACK Scan] from source: 104.73.173.35, port 80, Tuesday, February 16, 2016 22:41:42
+[DoS Attack: SYN/ACK Scan] from source: 210.61.247.90, port 80, Tuesday, February 16, 2016 22:13:15
+[DoS Attack: SYN/ACK Scan] from source: 40.74.132.189, port 40, Tuesday, February 16, 2016 21:58:42
+[DoS Attack: SYN/ACK Scan] from source: 123.249.27.229, port 80, Tuesday, February 16, 2016 21:36:24
+[DHCP IP: 192.168.1.19] to MAC address 70:48:0f:85:16:c7, Tuesday, February 16, 2016 21:04:30
+[DHCP IP: 192.168.1.8] to MAC address c0:33:5e:21:c8:e1, Tuesday, February 16, 2016 21:04:07
+[Internet connected] IP address: 96.37.90.24, Tuesday, February 16, 2016 21:02:31
+[DoS Attack: RST Scan] from source: 108.160.172.205, port 443, Tuesday, February 16, 2016 20:35:57
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Tuesday, February 16, 2016 20:24:39
+[DoS Attack: TCP/UDP Chargen] from source: 192.3.27.250, port 44920, Tuesday, February 16, 2016 20:15:32
+[DHCP IP: 192.168.1.10] to MAC address 10:a5:d0:cd:fc:19, Tuesday, February 16, 2016 19:26:11
+[DoS Attack: SYN/ACK Scan] from source: 190.12.72.50, port 27191, Tuesday, February 16, 2016 19:07:48
+[DoS Attack: SYN/ACK Scan] from source: 61.213.168.48, port 80, Tuesday, February 16, 2016 19:05:05
+[email sent to: klauer@gmail.com] Tuesday, February 16, 2016 19:04:05
+[Time synchronized with NTP server] Tuesday, February 16, 2016 19:03:06
+[DoS Attack: SYN/ACK Scan] from source: 23.2.16.34, port 80, Tuesday, February 16, 2016 19:02:22
+[DHCP IP: 192.168.1.11] to MAC address 20:7d:74:70:da:1d, Tuesday, February 16, 2016 18:15:50
+[DoS Attack: TCP/UDP Chargen] from source: 185.130.5.253, port 57022, Tuesday, February 16, 2016 17:50:45
+[WLAN access rejected: incorrect security] from MAC address 10:a5:d0:cd:fc:19, Tuesday, February 16, 2016 17:43:13
+[DoS Attack: RST Scan] from source: 108.160.172.237, port 443, Tuesday, February 16, 2016 17:39:11
+[DoS Attack: SYN/ACK Scan] from source: 68.40.255.235, port 80, Tuesday, February 16, 2016 17:35:22
+[DoS Attack: SYN/ACK Scan] from source: 188.165.3.18, port 80, Tuesday, February 16, 2016 17:25:27
+[DoS Attack: RST Scan] from source: 108.160.172.237, port 443, Tuesday, February 16, 2016 17:13:02
+[DoS Attack: SYN/ACK Scan] from source: 68.40.255.235, port 80, Tuesday, February 16, 2016 17:12:33
+[Internet connected] IP address: 96.37.90.24, Tuesday, February 16, 2016 17:02:31
+[DoS Attack: RST Scan] from source: 108.160.172.205, port 443, Tuesday, February 16, 2016 16:53:58
+[DoS Attack: SYN/ACK Scan] from source: 108.167.180.186, port 80, Tuesday, February 16, 2016 16:51:45
+[DoS Attack: RST Scan] from source: 108.160.172.205, port 443, Tuesday, February 16, 2016 16:47:56
+[DoS Attack: RST Scan] from source: 108.160.172.237, port 443, Tuesday, February 16, 2016 16:39:19
+[DoS Attack: SYN/ACK Scan] from source: 175.22.6.69, port 8450, Tuesday, February 16, 2016 16:38:52
+[DHCP IP: 192.168.1.7] to MAC address 80:d2:1d:46:8a:8d, Tuesday, February 16, 2016 16:36:08
+[DHCP IP: 192.168.1.6] to MAC address b4:b6:76:bf:19:8b, Tuesday, February 16, 2016 16:35:56
+[DoS Attack: SYN/ACK Scan] from source: 216.115.73.225, port 80, Tuesday, February 16, 2016 16:27:36
+[DHCP IP: 192.168.1.6] to MAC address b4:b6:76:bf:19:8b, Tuesday, February 16, 2016 16:20:55
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Tuesday, February 16, 2016 16:17:29
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Tuesday, February 16, 2016 16:17:04
+[DoS Attack: RST Scan] from source: 66.220.156.68, port 80, Tuesday, February 16, 2016 16:01:41
+[DHCP IP: 192.168.1.10] to MAC address 10:a5:d0:cd:fc:19, Tuesday, February 16, 2016 15:52:20
+[DHCP IP: 192.168.1.4] to MAC address 68:94:23:a7:a8:4d, Tuesday, February 16, 2016 15:19:19
+[DoS Attack: RST Scan] from source: 108.160.172.236, port 443, Tuesday, February 16, 2016 15:12:16
+[DoS Attack: RST Scan] from source: 108.160.172.225, port 443, Tuesday, February 16, 2016 15:09:15
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Tuesday, February 16, 2016 15:07:12
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Tuesday, February 16, 2016 15:05:41
+[DHCP IP: 192.168.1.8] to MAC address c0:33:5e:21:c8:e1, Tuesday, February 16, 2016 15:05:16
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Tuesday, February 16, 2016 15:03:55
+[DoS Attack: SYN/ACK Scan] from source: 106.120.171.16, port 8445, Tuesday, February 16, 2016 14:57:54
+[DoS Attack: SYN/ACK Scan] from source: 93.170.77.250, port 80, Tuesday, February 16, 2016 14:39:50
+[DoS Attack: SYN/ACK Scan] from source: 68.40.255.235, port 80, Tuesday, February 16, 2016 14:08:41
+[DHCP IP: 192.168.1.19] to MAC address 70:48:0f:85:16:c7, Tuesday, February 16, 2016 13:20:58
+[Internet connected] IP address: 96.37.90.24, Tuesday, February 16, 2016 13:02:31
+[DoS Attack: RST Scan] from source: 85.195.76.218, port 5004, Tuesday, February 16, 2016 12:40:55
+[DoS Attack: SYN/ACK Scan] from source: 178.248.234.128, port 80, Tuesday, February 16, 2016 12:26:50
+[DoS Attack: SYN/ACK Scan] from source: 192.99.191.222, port 6005, Tuesday, February 16, 2016 11:09:29
+[DoS Attack: SYN/ACK Scan] from source: 96.7.54.89, port 80, Tuesday, February 16, 2016 10:52:11
+[DoS Attack: SYN/ACK Scan] from source: 46.174.48.11, port 43896, Tuesday, February 16, 2016 10:16:35
+[DoS Attack: SYN/ACK Scan] from source: 107.180.36.180, port 80, Tuesday, February 16, 2016 10:04:36
+[DoS Attack: SYN/ACK Scan] from source: 108.167.180.186, port 80, Tuesday, February 16, 2016 09:12:40
+[DoS Attack: RST Scan] from source: 108.160.172.193, port 443, Tuesday, February 16, 2016 09:06:46
+[Internet connected] IP address: 96.37.90.24, Tuesday, February 16, 2016 09:02:30
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:55:21
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:54:45
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:54:44
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:54:06
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:54:05
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:53:27
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:53:27
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:52:42
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:52:41
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:52:06
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:52:06
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:51:27
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:51:26
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:50:55
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:50:54
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Tuesday, February 16, 2016 08:50:54
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:50:23
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:50:23
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:49:41
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:49:41
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:49:09
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:49:09
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:48:35
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:48:35
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:47:56
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:47:56
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:47:12
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:47:11
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:46:40
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:46:40
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:46:00
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:46:00
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:45:16
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:45:16
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:44:33
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:44:33
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:43:58
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:43:58
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:43:14
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:43:13
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:42:39
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:42:38
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:41:57
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:41:57
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:41:17
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:41:17
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:40:37
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:40:37
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:39:55
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:39:54
+[DoS Attack: TCP/UDP Chargen] from source: 23.228.101.234, port 57526, Tuesday, February 16, 2016 08:39:35
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:39:11
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:39:11
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:38:39
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:38:39
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:38:08
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:38:07
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:37:32
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:37:32
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:36:58
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:36:58
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:36:21
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:36:21
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:35:47
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:35:47
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:35:08
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:35:08
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:34:37
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:34:37
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:33:52
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:33:52
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:33:17
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:33:17
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:32:42
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:32:41
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:32:08
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:32:08
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:31:24
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:31:24
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:30:41
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:30:40
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:29:56
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:29:56
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:29:17
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:29:17
+[DoS Attack: ACK Scan] from source: 89.108.72.11, port 80, Tuesday, February 16, 2016 08:28:55
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:28:46
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:28:46
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:28:01
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:28:01
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:27:22
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:27:22
+[DoS Attack: ACK Scan] from source: 52.73.146.38, port 80, Tuesday, February 16, 2016 08:26:43
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:26:41
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:26:41
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:26:09
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:26:09
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:25:31
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:25:31
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:24:50
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:24:50
+[UPnP set event: add_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:24:08
+[UPnP set event: del_nat_rule] from source 192.168.1.8, Tuesday, February 16, 2016 08:24:08
