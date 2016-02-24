@@ -156,8 +156,8 @@ func dhcpIPAssign(line string) (*NetGearLog, error) {
 	if err != nil {
 		return nil, err
 	}
-	ip := strings.Trim(pieces[2], "]")
-	mac := strings.Trim(pieces[6], ",")
+	ip := trimStrings(pieces[2])
+	mac := trimStrings(pieces[6])
 	log := &NetGearLog{
 		Time:         t,
 		FromSource:   ip,
@@ -187,7 +187,7 @@ func wLANRejectIncorrectSecurity(line string) (*NetGearLog, error) {
 		return nil, err
 	}
 	log := &NetGearLog{
-		ToMACAddress: strings.Trim(pieces[8], ", "),
+		ToMACAddress: trimStrings(pieces[8]),
 		Time:         t,
 		EventType:    eventWLANRejectIncorrectSec,
 	}
@@ -262,8 +262,8 @@ func accessControl(line string) (*NetGearLog, error) {
 	if err != nil {
 		return nil, err
 	}
-	blk := strings.Trim(pieces[9], " ")
-	mac := strings.Trim(pieces[7], " ")
+	blk := trimStrings(pieces[9])
+	mac := trimStrings(pieces[7])
 	log := &NetGearLog{
 		EventType:    eventAccessControl + " " + blk,
 		Time:         t,
