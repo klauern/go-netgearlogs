@@ -31,10 +31,6 @@ build:
         name: go get
         code: |
           go get -t ./...
-
-    - script:
-        name: go get
-        code: |
           go get -u github.com/alecthomas/gometalinter
 
     # Build the project
