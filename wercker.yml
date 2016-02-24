@@ -45,4 +45,4 @@ build:
         name: go test
         code: |
           go test ./...
-          gometalinter --deadline 5m
+          gometalinter --deadline 5m --disable=dupl --disable=gocyclo
