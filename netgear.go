@@ -1,3 +1,8 @@
+// Package netgearlogs provides parsing functionality for log files and log entries.
+//
+// More specifically, it is written to parse log entries generated from a WNDR4300 NetGear Wireless Router.
+//
+//
 package netgearlogs
 
 import (
@@ -8,6 +13,7 @@ import (
 	"time"
 )
 
+// The NetGearLog type contains information about the event that occurred on one log line entry.
 type NetGearLog struct {
 	Time         time.Time
 	FromSource   string
@@ -39,6 +45,9 @@ const (
 	eventEmailSent              = "email sent to"
 )
 
+// ParseNetGearLog takes an `io.Reader` type and parses the entirety of it into a slice of `NetGearLog` entries.
+// any errors that are encompassed on any of the lines will be in the map[string]error with the key being the
+// log line that errored itself, and the error being the error encountered when trying to parse that entry.
 func ParseNetGearLog(r io.Reader) ([]*NetGearLog, map[string]error) {
 	var logs []*NetGearLog
 	errors := make(map[string]error)
@@ -55,6 +64,7 @@ func ParseNetGearLog(r io.Reader) ([]*NetGearLog, map[string]error) {
 	return logs, errors
 }
 
+// ParseNetGearLogLine takes a log entry line and converts it into either a NetGearLog entry or an error if one occurs.
 func ParseNetGearLogLine(line string) (*NetGearLog, error) {
 	switch {
 	case strings.Contains(line, eventDoSAttackSynAckScan):
