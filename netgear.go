@@ -103,10 +103,8 @@ func ParseNetGearLogLine(line string) (*NetGearLog, error) {
 		return emailSent(line)
 	case strings.Contains(line, eventDynamicDNS):
 		return dynamicDNS(line)
-	default:
-		return nil, fmt.Errorf("Log Line Not Parseable: \n%s", line)
 	}
-	return nil, fmt.Errorf("Unknown")
+	return nil, fmt.Errorf("Log Line Not Parseable: \n%s", line)
 }
 
 func trimStrings(source string) string {
