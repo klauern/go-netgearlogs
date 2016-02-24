@@ -32,6 +32,7 @@ build:
         code: |
           go get -t ./...
           go get -u github.com/alecthomas/gometalinter
+          gometalinter --install --update
 
     # Build the project
     - script:
