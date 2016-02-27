@@ -17,6 +17,9 @@ func TestScanner_Scan(t *testing.T) {
 		{s: ` `, tok: WS, lit: " "},
 		{s: "\t", tok: WS, lit: "\t"},
 		{s: "\n", tok: WS, lit: "\n"},
+		{s: ":", tok: COLON, lit: ":"},
+		{s: "[", tok: LEFT_SQUARE_BRACKET, lit: "["},
+		{s: "]", tok:RIGHT_SQUARE_BRACKET, lit: "]"},
 
 		// Identifiers
 		{s: `foo`, tok: IDENT, lit: `foo`},

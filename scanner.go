@@ -38,6 +38,12 @@ func (s *Scanner) Scan() (tok Token, lit string) {
 		return ASTERISK, string(ch)
 	case ',':
 		return COMMA, string(ch)
+	case ':':
+		return COLON, string(ch)
+	case '[':
+		return LEFT_SQUARE_BRACKET, string(ch)
+	case ']':
+		return RIGHT_SQUARE_BRACKET, string(ch)
 	}
 
 	return ILLEGAL, string(ch)
