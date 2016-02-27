@@ -20,23 +20,41 @@ func NewParser(r io.Reader) *Parser {
 	return &Parser{s: NewScanner(r)}
 }
 
-// Parse parses a SQL SELECT statement.
+// Parse parses a NetGear Log statement.
 func (p *Parser) Parse() (*NetGearLog, error) {
 	log := &NetGearLog{}
 
-	// First token should be a "SELECT" keyword.
-	if tok, lit := p.scanIgnoreWhitespace(); tok != SELECT {
-		return nil, fmt.Errorf("found %q, expected SELECT", lit)
+	// First token should be a "[" to start a log entry.
+	if tok, lit := p.scan(); tok != '[' {
+		return nil, fmt.Errorf("found %q, expected %q", lit, LEFT_SQUARE_BRACKET)
 	}
 
-	// Next we should loop over all our comma-delimited fields.
+	// Next we will find the type of log statement it is
+	for {
+		tok, lit := p.scanIgnoreWhitespace()
+		switch tok {
+		case DOS_ATTACK:
+			fmt.Printf(lit)
+		case WLAN_ACCESS_REJECTED:
+		case ACCESS_CONTROL:
+		case LAN_ACCESS_REMOTE:
+		case DHCP_IP:
+		case DYNAMIC_DNS:
+		case UPNP_SET_EVENT:
+		case TIME_SYNC_NTP:
+		case INTERNET_CONN:
+		case ADMIN_LOGIN:
+		case EMAIL_SENT:
+		}
+	}
+
+	// Next we should loop to the next thing
 	for {
 		// Read a field.
 		tok, lit := p.scanIgnoreWhitespace()
-		if tok != IDENT && tok != ASTERISK {
+		if tok != IDENT {
 			return nil, fmt.Errorf("found %q, expected field", lit)
 		}
-		log.Fields = append(log.Fields, lit)
 
 		// If the next token is not a comma then break the loop.
 		if tok, _ := p.scanIgnoreWhitespace(); tok != COMMA {
@@ -46,16 +64,16 @@ func (p *Parser) Parse() (*NetGearLog, error) {
 	}
 
 	// Next we should see the "FROM" keyword.
-	if tok, lit := p.scanIgnoreWhitespace(); tok != FROM {
-		return nil, fmt.Errorf("found %q, expected FROM", lit)
-	}
+	//if tok, lit := p.scanIgnoreWhitespace(); tok != FROM {
+	//	return nil, fmt.Errorf("found %q, expected FROM", lit)
+	//}
 
 	// Finally we should read the table name.
 	tok, lit := p.scanIgnoreWhitespace()
 	if tok != IDENT {
 		return nil, fmt.Errorf("found %q, expected table name", lit)
 	}
-	log.TableName = lit
+	//log.TableName = lit
 
 	// Return the successfully parsed statement.
 	return log, nil

@@ -13,7 +13,7 @@ import (
 	"time"
 )
 
-// The NetGearLog type contains information about the event that occurred on one log line entry.
+// NetGearLog represents a log entry from a NetGear router.
 type NetGearLog struct {
 	Time         time.Time
 	FromSource   string
@@ -33,10 +33,13 @@ const (
 	eventDoSAttackARPAttack     = "DoS Attack: ARP Attack"
 	eventDoSAttackTCPUDPEcho    = "DoS Attack: TCP/UDP Echo"
 	eventWLANRejectIncorrectSec = "WLAN access rejected: incorrect security"
+	eventWLANAccessRej          = "WLAN access rejected"
 	eventAccessControl          = "Access Control"
 	eventLANAccessFromRemote    = "LAN access from remote"
 	eventDHCPIP                 = "DHCP IP"
 	eventDynamicDNS             = "Dynamic DNS"
+	eventUPnP                   = "UPnP set event"
+	eventDoSAttack              = "DoS Attack"
 	eventUPnPAddNatRule         = "UPnP set event: add_nat_rule"
 	eventUPnPDelNatRule         = "UPnP set event: del_nat_rule"
 	eventTimeSyncNTP            = "Time synchronized with NTP server"

@@ -76,7 +76,7 @@ func (s *Scanner) scanIdent() (tok Token, lit string) {
 	for {
 		if ch := s.read(); ch == eof {
 			break
-		} else if !isLetter(ch) && !isDigit(ch) && ch != '_' {
+		} else if !isLetter(ch) && !isDigit(ch) {
 			s.unread()
 			break
 		} else {
@@ -86,14 +86,56 @@ func (s *Scanner) scanIdent() (tok Token, lit string) {
 
 	// If the string matches a keyword then return that keyword.
 	switch strings.ToUpper(buf.String()) {
-	case "SELECT":
-		return SELECT, buf.String()
-	case "FROM":
-		return FROM, buf.String()
+	case "UPNP":
+		s.readRestOfToken(strings.TrimPrefix(eventUPnP, buf.String()), &buf)
+		return UPNP_SET_EVENT, buf.String()
+	case "DOS":
+		s.readRestOfToken(strings.TrimPrefix(eventDoSAttack, buf.String()), &buf)
+		return DOS_ATTACK, buf.String()
+	case "DHCP":
+		s.readRestOfToken(strings.TrimPrefix(eventDHCPIP, buf.String()), &buf)
+		return DHCP_IP, buf.String()
+	case "LAN":
+		s.readRestOfToken(strings.TrimPrefix(eventLANAccessFromRemote, buf.String()), &buf)
+		return LAN_ACCESS_REMOTE, buf.String()
+	case "WLAN":
+		s.readRestOfToken(strings.TrimPrefix(eventWLANAccessRej, buf.String()), &buf)
+		return WLAN_ACCESS_REJECTED, buf.String()
+	case "ACCESS":
+		s.readRestOfToken(strings.TrimPrefix(eventAccessControl, buf.String()), &buf)
+		return ACCESS_CONTROL, buf.String()
+	case "TIME":
+		s.readRestOfToken(strings.TrimPrefix(eventTimeSyncNTP, buf.String()), &buf)
+		return TIME_SYNC_NTP, buf.String()
+	case "DYNAMIC":
+		s.readRestOfToken(strings.TrimPrefix(eventDynamicDNS, buf.String()), &buf)
+		return DYNAMIC_DNS, buf.String()
+	case "INTERNET":
+		s.readRestOfToken(strings.TrimPrefix(eventInternetConnected, buf.String()), &buf)
+		return INTERNET_CONN, buf.String()
+	case "ADMIN":
+		s.readRestOfToken(strings.TrimPrefix(eventAdminLogin, buf.String()), &buf)
+		return ADMIN_LOGIN, buf.String()
+	case "EMAIL":
+		s.readRestOfToken(strings.TrimPrefix(eventEmailSent, buf.String()), &buf)
+		return EMAIL_SENT, buf.String()
 	}
 
 	// Otherwise return as a regular identifier.
 	return IDENT, buf.String()
+}
+
+func (s *Scanner) readRestOfToken(lit string, buf *bytes.Buffer) {
+	for _, r := range lit {
+		// Read every subsequent ident character into the buffer.
+		// Non-ident characters and EOF will cause the loop to exit.
+		if ch := s.read(); ch == eof || ch != r {
+			s.unread()
+			break
+		} else {
+			_, _ = buf.WriteRune(ch)
+		}
+	}
 }
 
 // read reads the next rune from the bufferred reader.

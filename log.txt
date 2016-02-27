@@ -1534,3 +1534,29 @@
 [UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:26:39
 [UPnP set event: add_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:26:05
 [UPnP set event: del_nat_rule] from source 192.168.1.8, Saturday, February 20, 2016 19:26:05
+[DoS Attack: TCP/UDP Chargen] from source: 74.82.47.33, port 39444, Wednesday, February 24, 2016 03:29:44
+[DoS Attack: SYN/ACK Scan] from source: 37.59.134.139, port 80, Wednesday, February 24, 2016 03:27:14
+[DoS Attack: SYN/ACK Scan] from source: 5.255.82.104, port 80, Wednesday, February 24, 2016 03:02:54
+[DoS Attack: SYN/ACK Scan] from source: 37.59.134.139, port 80, Wednesday, February 24, 2016 03:00:08
+[DHCP IP: 192.168.1.7] to MAC address 80:d2:1d:46:8a:8d, Wednesday, February 24, 2016 02:41:57
+[DoS Attack: ACK Scan] from source: 89.248.172.173, port 22, Wednesday, February 24, 2016 02:09:26
+[DoS Attack: RST Scan] from source: 108.160.172.237, port 443, Wednesday, February 24, 2016 01:44:34
+[Internet connected] IP address: 96.37.90.24, Wednesday, February 24, 2016 01:03:05
+[DoS Attack: TCP/UDP Chargen] from source: 23.228.101.218, port 59851, Wednesday, February 24, 2016 00:37:08
+[DoS Attack: RST Scan] from source: 108.160.172.205, port 443, Tuesday, February 23, 2016 23:04:10
+[DoS Attack: ACK Scan] from source: 94.102.51.38, port 53, Tuesday, February 23, 2016 22:54:47
+[LAN access from remote] from 122.138.195.131:6000 to 192.168.1.9:8080, Tuesday, February 23, 2016 22:51:43
+[DoS Attack: RST Scan] from source: 205.234.175.175, port 80, Tuesday, February 23, 2016 22:25:17
+[DoS Attack: SYN/ACK Scan] from source: 123.249.27.229, port 80, Tuesday, February 23, 2016 21:46:38
+[DoS Attack: ACK Scan] from source: 70.158.164.70, port 80, Tuesday, February 23, 2016 21:07:27
+[Internet connected] IP address: 96.37.90.24, Tuesday, February 23, 2016 21:03:04
+[DoS Attack: RST Scan] from source: 108.160.172.205, port 443, Tuesday, February 23, 2016 20:51:45
+[DHCP IP: 192.168.1.5] to MAC address 7c:1e:52:e0:11:7a, Tuesday, February 23, 2016 20:46:30
+[DoS Attack: SYN/ACK Scan] from source: 123.249.27.229, port 80, Tuesday, February 23, 2016 20:12:10
+[DoS Attack: ACK Scan] from source: 89.248.172.154, port 22, Tuesday, February 23, 2016 19:44:01
+[DoS Attack: TCP/UDP Chargen] from source: 185.130.5.253, port 45913, Tuesday, February 23, 2016 19:38:42
+[DoS Attack: ACK Scan] from source: 31.151.75.124, port 80, Tuesday, February 23, 2016 19:25:09
+[DoS Attack: RST Scan] from source: 108.160.172.205, port 443, Tuesday, February 23, 2016 19:19:14
+[admin login] from source 192.168.1.6, Tuesday, February 23, 2016 19:06:07
+[DoS Attack: RST Scan] from source: 108.160.172.205, port 443, Tuesday, February 23, 2016 19:04:37
+[email sent to: klauer@gmail.com] Tuesday, February 23, 2016 19:04:03
