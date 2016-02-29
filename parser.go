@@ -3,6 +3,7 @@ package netgearlogs
 import (
 	"fmt"
 	"io"
+	"time"
 )
 
 // Parser represents a parser.
@@ -21,8 +22,8 @@ func NewParser(r io.Reader) *Parser {
 }
 
 // Parse parses a NetGear Log statement.
-func (p *Parser) Parse() (*NetGearLog, error) {
-	log := &NetGearLog{}
+func (p *Parser) Parse() (log *NetGearLog, err error) {
+	//log := &NetGearLog{}
 
 	// First token should be a "[" to start a log entry.
 	if tok, lit := p.scan(); tok != '[' {
@@ -36,26 +37,7 @@ func (p *Parser) Parse() (*NetGearLog, error) {
 		case DOS_ATTACK:
 			//tok, lit := p.scanIgnoreWhitespace()
 		case WLAN_ACCESS_REJECTED:
-			// [WLAN access rejected: incorrect security] from MAC address 10:a5:d0:cd:fc:19, Wednesday, February 17, 2016 16:52:35
-			tok, lit = p.scanColonIdentToRightBracket(log)
-			if tok == ILLEGAL {
-				return nil, fmt.Errorf("Expected %v, Got %v", IDENT, lit)
-			}
-			log.EventType = eventWLANAccessRej + " " + lit
-			tok, lit = p.scanMacAddress(log)
-			if tok != IDENT || tok == ILLEGAL {
-				return nil, fmt.Errorf("Expected MAC Address, got %q", lit)
-			}
-			log.FromSource = lit
-			tok, lit = p.scanToTimestampNewLine(log)
-			if tok != IDENT || tok == ILLEGAL {
-				return nil, fmt.Errorf("Expected Timestamp, got %q", lit)
-			}
-			t, e := parseTime(lit)
-			if e != nil {
-				return nil, e
-			}
-			log.Time = t
+			return p.parseWlanAccessRejected()
 		case ACCESS_CONTROL:
 		case LAN_ACCESS_REMOTE:
 		case DHCP_IP:
@@ -65,6 +47,9 @@ func (p *Parser) Parse() (*NetGearLog, error) {
 		case INTERNET_CONN:
 		case ADMIN_LOGIN:
 		case EMAIL_SENT:
+		default:
+			err = fmt.Errorf("Unknown Token Type: %v, Value: %s", tok, lit)
+			return
 		}
 	}
 
@@ -129,7 +114,7 @@ func (p *Parser) scanIgnoreWhitespace() (tok Token, lit string) {
 // unscan pushes the previously read token back onto the buffer.
 func (p *Parser) unscan() { p.buf.n = 1 }
 
-func (p *Parser) scanColonIdentToRightBracket(log *NetGearLog) (tok Token, lit string) {
+func (p *Parser) scanColonIdentToRightBracket() (tok Token, lit string) {
 	tok, lit = p.scan()
 	if tok != COLON {
 		return ILLEGAL, lit
@@ -142,4 +127,67 @@ func (p *Parser) scanColonIdentToRightBracket(log *NetGearLog) (tok Token, lit s
 		}
 	}
 	return
+}
+
+func (p *Parser) parseWlanAccessRejected() (log *NetGearLog, err error) {
+	// [WLAN access rejected: incorrect security] from MAC address 10:a5:d0:cd:fc:19, Wednesday, February 17, 2016 16:52:35
+	tok, lit := p.scanColonIdentToRightBracket()
+	if tok == ILLEGAL {
+		return nil, fmt.Errorf("Expected %v, Got %v", IDENT, lit)
+	}
+	log.EventType = eventWLANAccessRej + " " + lit
+	frMacAddr := []string{"from", "MAC", "address"}
+	for _, v := range frMacAddr {
+		tok, lit = p.scan()
+		if tok != IDENT && lit != v {
+			err = fmt.Errorf("Expected %s, got %s", v, lit)
+			return
+		}
+	}
+	mac := ""
+	for i := 0; i < 11; i++ {
+		tok, lit = p.scan()
+		if tok == ILLEGAL || (tok != COLON || tok != IDENT) {
+			err = fmt.Errorf("Error parsing MAC address: Got %v, %s", tok, lit)
+			return
+		}
+		mac += lit
+	}
+	log.FromSource = mac
+	p.scan()
+	tok, lit = p.scanTimestampNewLine()
+	if tok != IDENT || tok == ILLEGAL {
+		return nil, fmt.Errorf("Expected Timestamp, got %q", lit)
+	}
+	t, e := parseTime(lit)
+	if e != nil {
+		return nil, e
+	}
+	log.Time = t
+
+	return
+}
+
+//func (p *Parser) scanToMacAddress() (tok Token, lit string) {
+//
+//}
+
+func (p *Parser) scanTimestampNewLine() (tok Token, lit string) {
+	str := ""
+	for {
+		tok, lit = p.scan()
+		if (tok == WS && lit == "\n") || tok == EOF {
+			tok = IDENT
+			lit = str
+			return
+		}
+		if tok == COLON || tok == IDENT || tok == COMMA || tok == WS {
+			str += lit
+		}
+	}
+	return
+}
+
+func parseTime(s string) (t time.Time, err error) {
+	return time.Parse(netgearLogDateFmt, s)
 }
