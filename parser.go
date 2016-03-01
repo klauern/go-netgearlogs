@@ -185,7 +185,6 @@ func (p *Parser) scanTimestampNewLine() (tok Token, lit string) {
 			str += lit
 		}
 	}
-	return
 }
 
 func parseTime(s string) (t time.Time, err error) {

@@ -121,10 +121,16 @@ func TestEmailSent(t *testing.T) {
 }
 
 func TestLANAccessFromRemote(t *testing.T) {
-	line := "[LAN access from remote] from 222.186.34.155:77 to 192.168.1.9:8080, Wednesday, February 17, 2016 15:22:09"
+	lines := []string {
+		"[LAN access from remote] from 222.186.34.155:77 to 192.168.1.9:8080, Wednesday, February 17, 2016 15:22:09",
+		"[LAN access from remote] from 91.196.50.33:35513 to 192.168.1.9:8080, Sunday, February 28, 2016 03:55:01",
+		"[LAN access from remote] from 169.54.233.121:55291 to 192.168.1.9:8080, Saturday, February 27, 2016 03:33:51",
+		"[LAN access from remote] from 93.174.91.29:48188 to 192.168.1.9:8080, Friday, February 26, 2016 13:18:56",}
+	for _, line := range lines {
 	_, err := ParseNetGearLogLine(line)
 	if err != nil {
 		t.Fatal(err)
+	}
 	}
 }
 
