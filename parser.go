@@ -68,17 +68,10 @@ func (p *Parser) Parse() (log *NetGearLog, err error) {
 		}
 	}
 
-	// Next we should see the "FROM" keyword.
-	//if tok, lit := p.scanIgnoreWhitespace(); tok != FROM {
-	//	return nil, fmt.Errorf("found %q, expected FROM", lit)
-	//}
-
-	// Finally we should read the table name.
 	tok, lit := p.scanIgnoreWhitespace()
 	if tok != IDENT {
 		return nil, fmt.Errorf("found %q, expected table name", lit)
 	}
-	//log.TableName = lit
 
 	// Return the successfully parsed statement.
 	return log, nil
