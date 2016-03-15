@@ -137,32 +137,15 @@ func (p *Parser) parseWlanAccessRejected() (log *NetGearLog, err error) {
 		}
 	}
 
-	mac := ""
-	for i := 0; i < 11; i++ {
-		tok, lit := p.scanIgnoreWhitespace()
-		switch tok {
-		case COLON:
-			mac += lit
-		case IDENT:
-			mac += lit
-		case ILLEGAL:
-			err = fmt.Errorf("Error parsing MAC address: Got %s, %s", tok, lit)
-			return
-		}
+	if log.FromSource, err = scanMacAddress(p); err != nil {
+		return
 	}
-	log.FromSource = mac
+
 	p.scan() // ','
 	p.scan() // ' '
-	tok, lit := p.scanTimestampToNewLineOrEOF()
-	if tok != IDENT || tok == ILLEGAL {
-		return nil, fmt.Errorf("Expected Timestamp, got %q", lit)
+	if log.Time, err = scanTimestampToNewLineOrEOF(p); err != nil {
+		return
 	}
-	t, e := parseTime(lit)
-	if e != nil {
-		return nil, e
-	}
-	log.Time = t
-
 	return
 }
 
@@ -170,13 +153,14 @@ func (p *Parser) parseWlanAccessRejected() (log *NetGearLog, err error) {
 //
 //}
 
-func (p *Parser) scanTimestampToNewLineOrEOF() (tok Token, lit string) {
+func scanTimestampToNewLineOrEOF(p *Parser) (t time.Time, err error) {
 	str := ""
 	for {
-		tok, lit = p.scan()
+		tok, lit := p.scan()
 		if (tok == WS && lit == "\n") || tok == EOF {
 			tok = IDENT
 			lit = str
+			t, err = parseTime(lit)
 			return
 		}
 		switch tok {
@@ -184,8 +168,24 @@ func (p *Parser) scanTimestampToNewLineOrEOF() (tok Token, lit string) {
 			str += lit
 		}
 	}
+	return
 }
 
 func parseTime(s string) (t time.Time, err error) {
 	return time.Parse(netgearLogDateFmt, s)
+}
+
+func scanMacAddress(p *Parser) (mac string, err error) {
+	mac = ""
+	for i := 0; i < 11; i++ {
+		tok, lit := p.scanIgnoreWhitespace()
+		switch tok {
+		case COLON, IDENT:
+			mac += lit
+		case ILLEGAL:
+			err = fmt.Errorf("Error parsing MAC address: Got %s, %s", tok, lit)
+			return
+		}
+	}
+	return
 }
