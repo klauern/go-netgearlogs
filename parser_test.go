@@ -11,7 +11,7 @@ func createTestParser(val string) (*Parser) {
 	return NewParser(r)
 }
 
-func TestParseWLanAccessRejected(t *testing.T) {
+func TestParseWLanAccessRejectedIncorrectSec(t *testing.T) {
 	log := "[WLAN access rejected: incorrect security] from MAC address 10:a5:d0:cd:fc:19, Wednesday, February 17, 2016 16:52:35"
 	p := createTestParser(log)
 	l, err := p.Parse()
