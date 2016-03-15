@@ -138,7 +138,7 @@ func (p *Parser) parseWlanAccessRejected() (log *NetGearLog, err error) {
 	}
 
 	mac := ""
-	for i := 0; i < 18; i++ {
+	for i := 0; i < 11; i++ {
 		tok, lit := p.scanIgnoreWhitespace()
 		switch tok {
 		case COLON:
@@ -151,7 +151,8 @@ func (p *Parser) parseWlanAccessRejected() (log *NetGearLog, err error) {
 		}
 	}
 	log.FromSource = mac
-	p.scan()
+	p.scan() // ','
+	p.scan() // ' '
 	tok, lit := p.scanTimestampNewLine()
 	if tok != IDENT || tok == ILLEGAL {
 		return nil, fmt.Errorf("Expected Timestamp, got %q", lit)
@@ -178,7 +179,8 @@ func (p *Parser) scanTimestampNewLine() (tok Token, lit string) {
 			lit = str
 			return
 		}
-		if tok == COLON || tok == IDENT || tok == COMMA || tok == WS {
+		switch tok {
+		case COLON, IDENT, COMMA, WS:
 			str += lit
 		}
 	}

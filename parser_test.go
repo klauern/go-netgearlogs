@@ -3,6 +3,7 @@ package netgearlogs
 import (
 	"testing"
 	"strings"
+	"time"
 )
 
 func createTestParser(val string) (*Parser) {
@@ -19,5 +20,9 @@ func TestParseWLanAccessRejected(t *testing.T) {
 	}
 	if l.EventType != eventWLANRejectIncorrectSec {
 		t.Errorf("Incorrect Event Type. Expected %s, Got %s", eventWLANRejectIncorrectSec, l.EventType)
+	}
+	tm, _ := time.Parse(netgearLogDateFmt, "Wednesday, February 17, 2016 16:52:35")
+	if l.Time != tm {
+		t.Errorf("Time does not match: Expected: %s, Got %s", tm, l.Time)
 	}
 }
