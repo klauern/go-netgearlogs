@@ -35,7 +35,7 @@ func (p *Parser) Parse() (log *NetGearLog, err error) {
 		tok, lit := p.scanIgnoreWhitespace()
 		switch tok {
 		case DOS_ATTACK:
-			//tok, lit := p.scanIgnoreWhitespace()
+			return p.parseDOSAttack()
 		case WLAN_ACCESS_REJECTED:
 			return p.parseWlanAccessRejected()
 		case ACCESS_CONTROL:
@@ -149,9 +149,17 @@ func (p *Parser) parseWlanAccessRejected() (log *NetGearLog, err error) {
 	return
 }
 
-//func (p *Parser) scanToMacAddress() (tok Token, lit string) {
-//
-//}
+func (p *Parser) parseDOSAttack() (log *NetGearLog, err error) {
+	// [DoS Attack: SYN/ACK Scan] from source: 68.40.255.235, port 80, Tuesday, February 16, 2016 17:35:23
+	// [DoS Attack: RST Scan] from source: 108.160.172.237, port 443, Tuesday, February 16, 2016 17:39:12
+	// [DoS Attack: TCP/UDP Chargen] from source: 185.130.5.253, port 57022, Tuesday, February 16, 2016 17:50:46
+	// [DoS Attack: ACK Scan] from source: 89.108.72.11, port 80, Tuesday, February 16, 2016 08:28:56
+	log = &NetGearLog{}
+	// Need to figure out what KIND of DoS attack
+	// then From Source
+	// Then Port
+	// Then Timestamp
+}
 
 func scanTimestampToNewLineOrEOF(p *Parser) (t time.Time, err error) {
 	str := ""
