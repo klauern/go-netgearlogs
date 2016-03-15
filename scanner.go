@@ -28,6 +28,9 @@ func (s *Scanner) Scan() (tok Token, lit string) {
 	} else if isLetter(ch) {
 		s.unread()
 		return s.scanIdent()
+	} else if isDigit(ch) {
+		s.unread()
+		return s.scanIdent()
 	}
 
 	// Otherwise read the individual character.
@@ -105,7 +108,7 @@ func (s *Scanner) scanIdent() (tok Token, lit string) {
 		s.readRestOfToken(strings.TrimPrefix(eventLANAccessFromRemote, buf.String()), &buf)
 		return LAN_ACCESS_REMOTE, buf.String()
 	case "WLAN":
-		s.readRestOfToken(strings.TrimPrefix(eventWLANAccessRej, buf.String()), &buf)
+		s.readRestOfToken(strings.TrimPrefix(eventWLANRejectIncorrectSec, buf.String()), &buf)
 		return WLAN_ACCESS_REJECTED, buf.String()
 	case "ACCESS":
 		s.readRestOfToken(strings.TrimPrefix(eventAccessControl, buf.String()), &buf)

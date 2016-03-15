@@ -26,7 +26,7 @@ func (p *Parser) Parse() (log *NetGearLog, err error) {
 	//log := &NetGearLog{}
 
 	// First token should be a "[" to start a log entry.
-	if tok, lit := p.scan(); tok != '[' {
+	if tok, lit := p.scan(); tok != LEFT_SQUARE_BRACKET {
 		return nil, fmt.Errorf("found %q, expected %q", lit, LEFT_SQUARE_BRACKET)
 	}
 
@@ -52,6 +52,8 @@ func (p *Parser) Parse() (log *NetGearLog, err error) {
 			return
 		}
 	}
+
+	// Everything below here is unreachable unless I 'break' out of the for loop
 
 	// Next we should loop to the next thing
 	for {
@@ -124,31 +126,33 @@ func (p *Parser) scanColonIdentToRightBracket() (tok Token, lit string) {
 
 func (p *Parser) parseWlanAccessRejected() (log *NetGearLog, err error) {
 	// [WLAN access rejected: incorrect security] from MAC address 10:a5:d0:cd:fc:19, Wednesday, February 17, 2016 16:52:35
-	tok, lit := p.scanColonIdentToRightBracket()
-	if tok == ILLEGAL {
-		return nil, fmt.Errorf("Expected %v, Got %v", IDENT, lit)
-	}
-	log.EventType = eventWLANAccessRej + " " + lit
-	frMacAddr := []string{"from", "MAC", "address"}
+	log = &NetGearLog{}
+	log.EventType = eventWLANRejectIncorrectSec
+	frMacAddr := []string{"]", "from", "MAC", "address"}
 	for _, v := range frMacAddr {
-		tok, lit = p.scan()
+		tok, lit := p.scanIgnoreWhitespace()
 		if tok != IDENT && lit != v {
 			err = fmt.Errorf("Expected %s, got %s", v, lit)
 			return
 		}
 	}
+
 	mac := ""
-	for i := 0; i < 11; i++ {
-		tok, lit = p.scan()
-		if tok == ILLEGAL || (tok != COLON || tok != IDENT) {
-			err = fmt.Errorf("Error parsing MAC address: Got %v, %s", tok, lit)
+	for i := 0; i < 18; i++ {
+		tok, lit := p.scanIgnoreWhitespace()
+		switch tok {
+		case COLON:
+			mac += lit
+		case IDENT:
+			mac += lit
+		case ILLEGAL:
+			err = fmt.Errorf("Error parsing MAC address: Got %s, %s", tok, lit)
 			return
 		}
-		mac += lit
 	}
 	log.FromSource = mac
 	p.scan()
-	tok, lit = p.scanTimestampNewLine()
+	tok, lit := p.scanTimestampNewLine()
 	if tok != IDENT || tok == ILLEGAL {
 		return nil, fmt.Errorf("Expected Timestamp, got %q", lit)
 	}
