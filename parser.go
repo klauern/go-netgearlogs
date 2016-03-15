@@ -153,7 +153,7 @@ func (p *Parser) parseWlanAccessRejected() (log *NetGearLog, err error) {
 	log.FromSource = mac
 	p.scan() // ','
 	p.scan() // ' '
-	tok, lit := p.scanTimestampNewLine()
+	tok, lit := p.scanTimestampToNewLineOrEOF()
 	if tok != IDENT || tok == ILLEGAL {
 		return nil, fmt.Errorf("Expected Timestamp, got %q", lit)
 	}
@@ -170,7 +170,7 @@ func (p *Parser) parseWlanAccessRejected() (log *NetGearLog, err error) {
 //
 //}
 
-func (p *Parser) scanTimestampNewLine() (tok Token, lit string) {
+func (p *Parser) scanTimestampToNewLineOrEOF() (tok Token, lit string) {
 	str := ""
 	for {
 		tok, lit = p.scan()
