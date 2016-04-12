@@ -43,10 +43,14 @@ func (s *Scanner) Scan() (tok Token, lit string) {
 		return COMMA, string(ch)
 	case ':':
 		return COLON, string(ch)
+	case '.':
+		return DOT, string(ch)
 	case '[':
 		return LEFT_SQUARE_BRACKET, string(ch)
 	case ']':
 		return RIGHT_SQUARE_BRACKET, string(ch)
+	case '/':
+		return SLASH, string(ch)
 	}
 
 	return ILLEGAL, string(ch)

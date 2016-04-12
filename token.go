@@ -16,7 +16,9 @@ const (
 	COMMA
 	LEFT_SQUARE_BRACKET
 	RIGHT_SQUARE_BRACKET
-	COLON
+	COLON // ':'
+	SLASH // '/'
+	DOT   // '.'
 
 	// Keywords
 	DOS_ATTACK

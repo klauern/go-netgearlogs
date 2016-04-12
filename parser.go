@@ -98,12 +98,12 @@ func (p *Parser) scan() (tok Token, lit string) {
 }
 
 // scanIgnoreWhitespace scans the next non-whitespace token.
-func (p *Parser) scanIgnoreWhitespace() (tok Token, lit string) {
-	tok, lit = p.scan()
+func (p *Parser) scanIgnoreWhitespace() (Token, string) {
+	tok, lit := p.scan()
 	if tok == WS {
 		tok, lit = p.scan()
 	}
-	return
+	return tok, lit
 }
 
 // unscan pushes the previously read token back onto the buffer.
@@ -149,16 +149,54 @@ func (p *Parser) parseWlanAccessRejected() (log *NetGearLog, err error) {
 	return
 }
 
-func (p *Parser) parseDOSAttack() (log *NetGearLog, err error) {
-	// [DoS Attack: SYN/ACK Scan] from source: 68.40.255.235, port 80, Tuesday, February 16, 2016 17:35:23
-	// [DoS Attack: RST Scan] from source: 108.160.172.237, port 443, Tuesday, February 16, 2016 17:39:12
-	// [DoS Attack: TCP/UDP Chargen] from source: 185.130.5.253, port 57022, Tuesday, February 16, 2016 17:50:46
-	// [DoS Attack: ACK Scan] from source: 89.108.72.11, port 80, Tuesday, February 16, 2016 08:28:56
-	log = &NetGearLog{}
+func (p *Parser) parseDOSAttack() (*NetGearLog, error) {
+	log := &NetGearLog{}
+
+	// [DoS Attack:
+	for _, v := range []string{"[", "DoS", "Attack"} {
+		tok, lit := p.scanIgnoreWhitespace()
+		if tok != IDENT && lit != v {
+			return log, fmt.Errorf("Expected %s, got %s", v, lit)
+		}
+	}
+
+	tok, lit := p.scanIgnoreWhitespace()
+	if tok != IDENT {
+		return log, fmt.Errorf("Expected %s, got %s", IDENT, tok)
+	}
+	var err error
+	switch lit {
+	case "SYN":
+		for _, v := range []string{"/", "ACK", "Scan"} {
+			_, lit := p.scanIgnoreWhitespace()
+			if lit != v {
+				err = fmt.Errorf("Expected %s, got %s", v, lit)
+				break
+			}
+		}
+		if log.FromSource, err = scanFromSourcePortIPAddress(p); err != nil {
+			break
+		}
+		// ] from source : 66 . 40 . 255 . 235 port 80
+		if log.Time, err = scanTimestampToNewLineOrEOF(p); err != nil {
+			break
+		}
+	case "TCP":
+	case "ACK":
+	default:
+		return log, fmt.Errorf("Unexpected DoS Attack Type token: %s", lit)
+	}
+
+	// SYN/ACK Scan] from source: 68.40.255.235, port 80, Tuesday, February 16, 2016 17:35:23
+	// RST Scan] from source: 108.160.172.237, port 443, Tuesday, February 16, 2016 17:39:12
+	// TCP/UDP Chargen] from source: 185.130.5.253, port 57022, Tuesday, February 16, 2016 17:50:46
+	// ACK Scan] from source: 89.108.72.11, port 80, Tuesday, February 16, 2016 08:28:56
+
 	// Need to figure out what KIND of DoS attack
 	// then From Source
 	// Then Port
 	// Then Timestamp
+	return log, err
 }
 
 func scanTimestampToNewLineOrEOF(p *Parser) (t time.Time, err error) {
@@ -177,6 +215,29 @@ func scanTimestampToNewLineOrEOF(p *Parser) (t time.Time, err error) {
 		}
 	}
 	return
+}
+
+func scanFromSourcePortIPAddress(p *Parser) (string, error) {
+	// ] from source : 66 . 40 . 255 . 235 port 80
+	var source string
+	for _, v := range []string{"]", "from", "source", ":"} {
+		tok, lit := p.scanIgnoreWhitespace()
+		if (tok != IDENT || tok != RIGHT_SQUARE_BRACKET || tok != COLON) && lit != v {
+			return source, fmt.Errorf("Expected %s, got %s", v, lit)
+		}
+	}
+	for i := 0; i < 7; i++ {
+		tok, lit := p.scanIgnoreWhitespace()
+		if tok == DOT || tok == IDENT {
+			source += lit
+		} else {
+			return source, fmt.Errorf("expected digit or '.', got %s", lit)
+		}
+	}
+	// Leaving port # out right now
+	p.scanIgnoreWhitespace() // port
+	p.scanIgnoreWhitespace() // 80
+	return source, nil
 }
 
 func parseTime(s string) (t time.Time, err error) {
