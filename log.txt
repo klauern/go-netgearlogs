@@ -1,3 +1,5 @@
+[email failed] internet connection is dropped, Wednesday, May 16,2018 09:01:11
+[Site allowed: fonts.googleapis.com] from source 192.168.1.21, Wednesday, May 16,2018 08:59:58
 [Time synchronized with NTP server] Monday, February 22, 2016 19:03:16
 [DHCP IP: 192.168.1.6] to MAC address b4:b6:76:bf:19:8b, Monday, February 22, 2016 18:31:22
 [DHCP IP: 192.168.1.6] to MAC address b4:b6:76:bf:19:8b, Monday, February 22, 2016 18:16:21
